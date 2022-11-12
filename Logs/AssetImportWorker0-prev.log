@@ -15,7 +15,7 @@ D:/01_Projects/FemDevsGameJam2022/BoobieTraps
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58620
+55838
 Successfully changed project path to: D:/01_Projects/FemDevsGameJam2022/BoobieTraps
 D:/01_Projects/FemDevsGameJam2022/BoobieTraps
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/01_Projects/FemDevsGameJam2022/BoobieTraps
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 137.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 145.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.019046 seconds.
+Registered in 0.021224 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 114.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 126.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
+- Completed reload, in  0.795 seconds
 Domain Reload Profiling:
-	ReloadAssembly (794ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (559ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (112ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (347ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (127ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028041 seconds.
+Registered in 0.028846 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -115,7 +115,7 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 119.04 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 110.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Generating Metadata
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.IOException: Sharing violation on path D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Assets\NaninovelData\Metadata.xml
@@ -142,30 +142,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.805 seconds
+- Completed reload, in  1.865 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1806ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (1866ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1524ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1594ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
+			SetupTypeCache (312ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (910ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1005ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (325ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (384ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -173,12 +173,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4805 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (229.5 KB). Loaded Objects now: 5260.
-Memory consumption went from 173.1 MB to 172.8 MB.
-Total: 7.275800 ms (FindLiveObjects: 0.427200 ms CreateObjectMapping: 0.412700 ms MarkObjects: 6.071600 ms  DeleteObjects: 0.362300 ms)
+Unloading 5034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (307.3 KB). Loaded Objects now: 5469.
+Memory consumption went from 182.5 MB to 182.2 MB.
+Total: 4.970900 ms (FindLiveObjects: 0.387300 ms CreateObjectMapping: 0.388000 ms MarkObjects: 4.001100 ms  DeleteObjects: 0.193300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -192,20 +192,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19990.808466 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdd43f97d74125caf0d45cd13120a37') in 0.014099 seconds 
+  Time since last request: 77160.354872 seconds.
+  path: Assets/BoobieTrap/Scripts/second.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/second.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc3639b3a5e5b36022d9217bbe49a4c') in 0.033068 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.397518 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b74956f0e5cf86735704bcacec3d83b') in 0.005254 seconds 
+  Time since last request: 273.785450 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94288819f69f8798e97882699ddecbd') in 0.005455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.666385 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fa0c911f0ec0170f9812a859638279') in 0.005175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.627789 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be59c61b7de06f0c0a8eea1809cf44d') in 0.026196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.506591 seconds.
+  path: Assets/BoobieTrap/Scripts/Prologue.nani
+  artifactKey: Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Prologue.nani using Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d918e2ef760dcd401ac59e7e25c8ad7') in 0.008185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.902854 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e235de5db1ace57807977170bd491c') in 0.005468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.073966 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3651e3a207dbdc3708c83a2107403975') in 0.005570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.714120 seconds.
+  path: Assets/BoobieTrap/Runtime/AdventureMode.cs
+  artifactKey: Guid(6f2fb6e6bacde1a44ac2eea887a96ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Runtime/AdventureMode.cs using Guid(6f2fb6e6bacde1a44ac2eea887a96ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8aaf8cf1d1301d7ee50e8932ed7887') in 0.054514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.823021 seconds.
+  path: Assets/BoobieTrap/Runtime/AdventureTextMode.cs
+  artifactKey: Guid(6f2fb6e6bacde1a44ac2eea887a96ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Runtime/AdventureTextMode.cs using Guid(6f2fb6e6bacde1a44ac2eea887a96ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9a580c24e0f655c85e1fe6b756b71') in 0.005721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.925026 seconds.
+  path: Assets/BoobieTrap/Runtime/NovelMode.cs
+  artifactKey: Guid(5c18c7f8da126594682fde06c852a000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Runtime/NovelMode.cs using Guid(5c18c7f8da126594682fde06c852a000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1d096f62016988a555dd74d01e4107') in 0.007036 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.026604 seconds.
+Registered in 0.025356 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -213,43 +261,50 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
-- Completed reload, in  2.155 seconds
+- Completed reload, in  2.157 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2155ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (2157ms)
+		BeginReloadAssembly (330ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1822ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (1138ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1690ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1122ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (667ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (695ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (197.1 KB). Loaded Objects now: 5267.
-Memory consumption went from 171.9 MB to 171.7 MB.
-Total: 3.993600 ms (FindLiveObjects: 0.327300 ms CreateObjectMapping: 0.284500 ms MarkObjects: 3.175900 ms  DeleteObjects: 0.205000 ms)
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (266.8 KB). Loaded Objects now: 5489.
+Memory consumption went from 179.9 MB to 179.6 MB.
+Total: 6.540300 ms (FindLiveObjects: 0.500500 ms CreateObjectMapping: 0.608100 ms MarkObjects: 5.158900 ms  DeleteObjects: 0.271400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -261,23 +316,1292 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-11.11.2022 21:51:04|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
-11.11.2022 21:51:05|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025340 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.135 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2136ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1841ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (735ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.9 KB). Loaded Objects now: 5508.
+Memory consumption went from 180.1 MB to 179.9 MB.
+Total: 5.000400 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.449500 ms MarkObjects: 3.922300 ms  DeleteObjects: 0.187000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+12.11.2022 13:53:45|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030636 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 13:53:48|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
+12.11.2022 13:53:48|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+12.11.2022 13:53:48|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2140ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1729ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1129ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (668ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5007 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.0 KB). Loaded Objects now: 5529.
+Memory consumption went from 180.2 MB to 179.9 MB.
+Total: 4.205400 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.307700 ms MarkObjects: 3.380100 ms  DeleteObjects: 0.155600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024491 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.067 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2068ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1758ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (687ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5007 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.0 KB). Loaded Objects now: 5548.
+Memory consumption went from 180.2 MB to 179.9 MB.
+Total: 3.726800 ms (FindLiveObjects: 0.368700 ms CreateObjectMapping: 0.393000 ms MarkObjects: 2.796000 ms  DeleteObjects: 0.168200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4849.103117 seconds.
-  path: Assets/NaninovelData/Resources/Naninovel/Configuration/ChoiceHandlersConfiguration.asset
-  artifactKey: Guid(10bedaf43ee220d44a9a51fb9a231a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaninovelData/Resources/Naninovel/Configuration/ChoiceHandlersConfiguration.asset using Guid(10bedaf43ee220d44a9a51fb9a231a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8550c5b48506f53e45cc6e9e7553a0') in 0.308512 seconds 
+  Time since last request: 390.285152 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c59b80e13194a996bed749ec996a6c4') in 0.039577 seconds 
+12.11.2022 14:00:37|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:00:37|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
 ========================================================================
 Received Import Request.
-  Time since last request: 12.681450 seconds.
-  path: Assets/NaninovelData/Saves/Settings.json
-  artifactKey: Guid(5295adcb01316134dae05be8999731bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaninovelData/Saves/Settings.json using Guid(5295adcb01316134dae05be8999731bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bcc2cf775b6f6061d716a6ba1546f8') in 0.046520 seconds 
+  Time since last request: 109.070615 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4831d0c510864d2a406726782044fc3') in 0.043661 seconds 
+12.11.2022 14:04:33|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024735 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:04:36|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1983ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1677ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (680ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (267.9 KB). Loaded Objects now: 5566.
+Memory consumption went from 180.3 MB to 180.0 MB.
+Total: 4.251100 ms (FindLiveObjects: 0.419200 ms CreateObjectMapping: 0.320300 ms MarkObjects: 3.302300 ms  DeleteObjects: 0.208400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.604757 seconds.
-  path: Assets/NaninovelData/Saves/GlobalSave.nson
-  artifactKey: Guid(1276f1271b7109f4d97b89f34d64eff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaninovelData/Saves/GlobalSave.nson using Guid(1276f1271b7109f4d97b89f34d64eff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d35a004efe4237f3d04f86f4e8664c') in 0.012743 seconds 
+  Time since last request: 195.694820 seconds.
+  path: Assets/BoobieTrap/Scripts/Prologue.nani
+  artifactKey: Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Prologue.nani using Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0275450a4e05f94cd39be6f05676529c') in 0.064727 seconds 
+12.11.2022 14:06:08|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:06:09|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:25:38|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025700 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:25:41|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1940ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1646ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1081ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (665ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (267.0 KB). Loaded Objects now: 5584.
+Memory consumption went from 180.2 MB to 179.9 MB.
+Total: 4.058300 ms (FindLiveObjects: 0.402600 ms CreateObjectMapping: 0.319500 ms MarkObjects: 3.181000 ms  DeleteObjects: 0.154100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1294.622915 seconds.
+  path: Assets/BoobieTrap/Scripts/Prologue.nani
+  artifactKey: Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Prologue.nani using Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a80e70a9f28a5c0d5b453817f9a6b44') in 0.048113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.778343 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57445e8a05f0a59fce8671d2ac630b8d') in 0.005339 seconds 
+12.11.2022 14:27:12|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:27:13|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:28:13|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028871 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:28:16|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1936ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1648ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1098ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (678ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.1 KB). Loaded Objects now: 5603.
+Memory consumption went from 180.5 MB to 180.2 MB.
+Total: 3.860700 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.326100 ms MarkObjects: 2.952700 ms  DeleteObjects: 0.186800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+12.11.2022 14:29:48|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:29:48|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:31:00|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025169 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:31:03|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1968ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1646ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1072ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (660ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.1 KB). Loaded Objects now: 5622.
+Memory consumption went from 180.5 MB to 180.2 MB.
+Total: 3.810400 ms (FindLiveObjects: 0.379900 ms CreateObjectMapping: 0.393700 ms MarkObjects: 2.865500 ms  DeleteObjects: 0.169900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248.327361 seconds.
+  path: Assets/BoobieTrap/Scripts/Prologue.nani
+  artifactKey: Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Prologue.nani using Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df0e251c214ad4304f170babd856b4') in 0.047808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.536902 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ecdf943d82d6235bf3fce01eea017f') in 0.006035 seconds 
+12.11.2022 14:32:35|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:32:35|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:33:42|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028767 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:33:45|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.044 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2045ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1752ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1155ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (692ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (269.2 KB). Loaded Objects now: 5641.
+Memory consumption went from 180.6 MB to 180.3 MB.
+Total: 4.398100 ms (FindLiveObjects: 0.422800 ms CreateObjectMapping: 0.441700 ms MarkObjects: 3.351300 ms  DeleteObjects: 0.181100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.780679 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019368b1055929fe6087cec9dc4c0b44') in 0.042918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.840880 seconds.
+  path: Assets/BoobieTrap/Scripts/Prologue.nani
+  artifactKey: Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Prologue.nani using Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97cb26c4b671443d8708df0c46b7ba3') in 0.015154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.910527 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a235a10d451623e4d699675de9f968ab') in 0.005858 seconds 
+12.11.2022 14:35:18|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:35:18|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 100.524643 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db4e2601cc1f24d8acbba076e5a603b') in 0.005450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.687471 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac98ae8cdd2da0937ed301af124e05b') in 0.005160 seconds 
+12.11.2022 14:37:32|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023595 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:37:35|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1922ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1640ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1087ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (668ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (268.0 KB). Loaded Objects now: 5660.
+Memory consumption went from 180.8 MB to 180.6 MB.
+Total: 5.593400 ms (FindLiveObjects: 0.487700 ms CreateObjectMapping: 0.464500 ms MarkObjects: 4.463500 ms  DeleteObjects: 0.176200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.785273 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4d4209c8aa085be6d4f6eb3a32fafc') in 0.035300 seconds 
+12.11.2022 14:39:06|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:39:07|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 14:39:37|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024262 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:39:40|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2231ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1855ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (667ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.0 KB). Loaded Objects now: 5679.
+Memory consumption went from 180.7 MB to 180.5 MB.
+Total: 3.728900 ms (FindLiveObjects: 0.386700 ms CreateObjectMapping: 0.334800 ms MarkObjects: 2.812400 ms  DeleteObjects: 0.193900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+12.11.2022 14:41:07|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024915 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 14:41:10|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
+12.11.2022 14:41:10|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+12.11.2022 14:41:10|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.309 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2310ms)
+		BeginReloadAssembly (299ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1857ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (698ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (268.0 KB). Loaded Objects now: 5698.
+Memory consumption went from 181.0 MB to 180.7 MB.
+Total: 3.714100 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.295600 ms MarkObjects: 2.855000 ms  DeleteObjects: 0.161700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 236.652880 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb3539a09eaa104bd8226c773b874a7') in 0.037450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.044012 seconds.
+  path: Assets/BoobieTrap/Scripts/Prologue.nani
+  artifactKey: Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Prologue.nani using Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77d2c3c6cddee34c9d3dd9e0f476974') in 0.015733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.529635 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1fb4c7534a1f16b976bd3cd1dced97') in 0.006001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.100895 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e12f32d40bff6ebcaab1d5a00d4998') in 0.021522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.732339 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8eb6558264968195511f88268b95f8') in 0.439270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.381865 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0480caa8541368c8735ffeb2e7fefb') in 0.004866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.472441 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10aa9e01fa9d6c6f7284920551c8ed8') in 0.005765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.783738 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4359ab1d8366c7789586ca5bc9f04564') in 0.006498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.516367 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5362e2eb86cb34727d6be14cfe7aec3d') in 0.005561 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029483 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2120ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1744ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1090ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (664ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (268.1 KB). Loaded Objects now: 5717.
+Memory consumption went from 181.1 MB to 180.8 MB.
+Total: 7.395200 ms (FindLiveObjects: 0.448300 ms CreateObjectMapping: 0.361100 ms MarkObjects: 6.216300 ms  DeleteObjects: 0.367900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 494.406551 seconds.
+  path: Assets/BoobieTrap/Scripts/Prologue.nani
+  artifactKey: Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Prologue.nani using Guid(5f19d057662c9c14e9f6d813bb652329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6200b7981a5624799f592f61752305c3') in 0.111856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.114636 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1668c90e35661b69783e58c8fe382a') in 0.005874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.768477 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda6205c83ff866be3524630f0959c0b') in 0.007117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.320184 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad14e0dcc3b38a80afe02a01d9f32f0') in 0.026305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.245476 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c549b57ca510df4224f7505183a5f225') in 0.005107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.908163 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979943aad9a033ca3a32e5f00ab9f05d') in 0.005257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.007284 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca964472bb153a88ffc571a9d9398b3c') in 0.005584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.036298 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baa8b6a503f08653b61761a0400a0e2') in 0.005320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 331.910876 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6447cdcf22e3e6cf46fea302412b5428') in 0.005560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.096867 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4215c3daee3e20c54d969f6b8eae8ff') in 0.005497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.118646 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48c4916efe25d47fea2543ea76ccb97') in 0.006103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.979437 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a3f5e84de7b51034c0fa598f5fc64a') in 0.045054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.255194 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acc74507cfe1b29836c35a705c2c30f') in 0.005949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 288.480400 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65970203f1a1b794f77a566b84dfd552') in 0.005381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.298268 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5942d6bc14b43748108e634930588cbf') in 0.005393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.513747 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea2cfa8b990f95e55b95ebfeab0be5e') in 0.005428 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024734 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2105ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1824ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (692ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (266.8 KB). Loaded Objects now: 5736.
+Memory consumption went from 181.2 MB to 180.9 MB.
+Total: 4.076600 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.342900 ms MarkObjects: 3.132700 ms  DeleteObjects: 0.182600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+12.11.2022 15:19:26|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 15:19:26|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 231.583735 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1864939397145ed17a33ae9a2067873') in 0.040255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.324058 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849ac86039d9f4f9a70017dfa89c69c7') in 0.045553 seconds 
+12.11.2022 15:23:39|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024502 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 15:23:42|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1968ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1685ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1131ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (691ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (266.9 KB). Loaded Objects now: 5756.
+Memory consumption went from 181.3 MB to 181.0 MB.
+Total: 3.708000 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.317500 ms MarkObjects: 2.820800 ms  DeleteObjects: 0.157500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+12.11.2022 15:25:14|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 15:25:14|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 15:29:29|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023371 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 15:29:31|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1992ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1662ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1107ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (681ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.9 KB). Loaded Objects now: 5775.
+Memory consumption went from 181.1 MB to 180.9 MB.
+Total: 4.447100 ms (FindLiveObjects: 0.399700 ms CreateObjectMapping: 0.409400 ms MarkObjects: 3.436900 ms  DeleteObjects: 0.200000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 527.061052 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b371bf7608be137db0c49661252c6cc7') in 0.036331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.868366 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57437e1504a1d135a26aa4ee5746313') in 0.005909 seconds 
+12.11.2022 15:31:04|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+12.11.2022 15:31:04|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 267.433435 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e569956898454f5cf2dfac6f63a09d7') in 0.005563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.367270 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817a4d00bba782cc4c1cb1256c8e145d') in 0.006007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.859021 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b70c8097a0a29c7a2b44fb8caafb0f') in 0.036155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.519063 seconds.
+  path: Assets/BoobieTrap/Scripts/Start.nani
+  artifactKey: Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTrap/Scripts/Start.nani using Guid(aa883cf56992f174ea0bd0bcff9b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db8741e4bbf4c88b4fa925e5ffac2bd') in 0.048556 seconds 
+12.11.2022 15:38:19|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023508 seconds.
+Begin MonoManager ReloadAssembly
+12.11.2022 15:38:22|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1947ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1668ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1117ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (672ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (267.1 KB). Loaded Objects now: 5794.
+Memory consumption went from 181.2 MB to 181.0 MB.
+Total: 4.773700 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.339300 ms MarkObjects: 3.852400 ms  DeleteObjects: 0.176100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

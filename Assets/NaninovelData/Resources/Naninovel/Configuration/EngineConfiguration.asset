@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EngineConfiguration
   m_EditorClassIdentifier: 
   GeneratedDataPath: NaninovelData
-  OverrideObjectsLayer: 0
+  OverrideObjectsLayer: 1
   ObjectsLayer: 0
   AsyncExceptionLogType: 0
   TypeAssemblies:
@@ -25,7 +25,7 @@ MonoBehaviour:
   SceneIndependent: 1
   ShowInitializationUI: 1
   CustomInitializationUI: {fileID: 0}
-  ShowTitleUI: 1
+  ShowTitleUI: 0
   EnableBridging: 1
   ServerPort: 41016
   AutoGenerateMetadata: 1

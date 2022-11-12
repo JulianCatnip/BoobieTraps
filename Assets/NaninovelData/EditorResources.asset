@@ -173,16 +173,16 @@ MonoBehaviour:
       guid: 488a89167c110df41a31f492414a1a73
   - Id: Scripts
     Resources:
-    - name: Script001
+    - name: Start
       pathPrefix: Scripts
       guid: aa883cf56992f174ea0bd0bcff9b06e3
-    - name: Script000
+    - name: Title
       pathPrefix: Scripts
       guid: 0535e1d4ea63af94a9dd51a1ce9d10df
     - name: Dialogue00
       pathPrefix: Scripts
       guid: 77055dca417601a4a84d99c04053cd30
-    - name: Prologue00
+    - name: Prologue
       pathPrefix: Scripts
       guid: 5f19d057662c9c14e9f6d813bb652329
   - Id: Backgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
@@ -253,3 +253,8 @@ MonoBehaviour:
     Resources: []
   - Id: Unlockables
     Resources: []
+  - Id: TextPrinters/139cb334-52d8-48b3-be9d-9142ca2f1602
+    Resources:
+    - name: Title
+      pathPrefix: TextPrinters
+      guid: 

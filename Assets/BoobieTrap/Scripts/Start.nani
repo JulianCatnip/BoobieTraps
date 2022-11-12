@@ -1,0 +1,15 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.[i] Quisque sed massa a dolor vehicula scelerisque. Fusce quis tortor nec nunc dignissim hendrerit.
+Cras dapibus...[i] Massa pulvinar fermentum venenatis!
+Cras ut ex augue?[skipInput]
+@choice "Go to novel mode" goto:Novel
+@choice "Nevermind"
+@stop
+See ya!
+@adventure reset:false
+
+Suspendisse potenti in faucibus orci.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+Maecenas diam sapien...[i][char m.Surprise wait:false] Lacinia vel urna!
+Curabitur auctor vehicula eros, vitae congue diam tempus sed.
+Ipsum primis in faucibus.
+@adventure reset:false

@@ -1,9 +1,24 @@
 ﻿using Naninovel;
+using Naninovel.UI;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager sharedInstance = null;
+    enum GameState
+    {
+        NULL,
+        START,
+        PAUSE,
+        END
+    }
+    private GameState gameState = GameState.NULL;
+    private int previousLevel;
+    private int currentLevel;
+    public List<GameObject> levelList;
+
+    public GameObject titleUI;
     public SpawnPoint playerSpawnPoint;
     public SpawnPoint enemySpawnPoint;
     public CameraManager cameraManager;
@@ -18,22 +33,56 @@ public class GameManager : MonoBehaviour
         else
         {
             sharedInstance = this;
+            // test
         }
     }
 
-    // Start is called before the first frame update
-    private async void Start ()
+    public async void StartGame ()
     {
-        // 1. Initialize Naninovel.
-        await RuntimeInitializer.InitializeAsync();
+        gameState = GameState.START;
+        previousLevel = currentLevel;
+        currentLevel = 1;
+        DisableLevel(previousLevel);
+        LoadLevel(currentLevel);
 
-        // 2. Enter menu mode.
-        var switchCommand = new NovelMode { ResetState = false };
+        await RuntimeInitializer.InitializeAsync();
+        
+        var switchCommand = new AdventureTextMode { ResetState = false };
         await switchCommand.ExecuteAsync();
+        Debug.Log("Command switch");
+        //ResetGameContent();
+    }
+
+    private void DisableLevel (int level)
+    {
+        levelList[level].SetActive(false);
+        // reset level contents
+    }
+
+    private void LoadLevel (int level)
+    {
+        levelList[level].SetActive(true);
+        // reset level contents
+    }
+
+    // Start is called before the first frame update
+    private void Start ()
+    {
+
+        // 1. Initialize Naninovel.
+        //await RuntimeInitializer.InitializeAsync();
+
+        // 2. Comman "title" is executed
+        //var switchCommand = new TitleMode { ResetState = false };
+        //await switchCommand.ExecuteAsync();
+
+        // 2. Enter Novel mode.
+        // Debug.Log("Start");
+        //var switchCommand = new NovelMode { ResetState = false };
+        //await switchCommand.ExecuteAsync();
 
         // 2. Enter adventure mode.
-        //var switchCommand = new AdventureMode { ResetState = false };
-        //await switchCommand.ExecuteAsync();
+        //Debug.Log("AdventureMode will be loaded now.");
 
         // 3. Initialize adventure camera and setup the scene
         //SetupScene();
@@ -56,6 +105,15 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    }
+
+    private void ResetGameContent()
+    {
         
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
