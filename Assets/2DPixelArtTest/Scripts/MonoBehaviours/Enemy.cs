@@ -40,7 +40,7 @@ public class Enemy : Character
         ResetCharacter();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    /*void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -51,9 +51,9 @@ public class Enemy : Character
                 damageCoroutine = StartCoroutine(player.DamageCharacter(damageStrength, 1.0f));
             }
         }
-    }
+    }*/
 
-    void OnCollisionExit2D(Collision2D collision)
+    /*void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -63,5 +63,5 @@ public class Enemy : Character
                 damageCoroutine = null;
             }
         }
-    }
+    }*/
 }

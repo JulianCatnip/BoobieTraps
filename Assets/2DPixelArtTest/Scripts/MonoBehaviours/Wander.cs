@@ -89,7 +89,7 @@ public class Wander : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && followPlayer)
+        /*if (collision.gameObject.CompareTag("Player") && followPlayer)
         {
             currentSpeed = pursuitSpeed;
             targetTransform = collision.gameObject.transform;
@@ -100,14 +100,14 @@ public class Wander : MonoBehaviour
             }
 
             moveCoroutine = StartCoroutine(Move(rb2d, currentSpeed));
-        }
+        }*/
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            animator.SetBool("isWalking", false);
+            /*animator.SetBool("isWalking", false);
             currentSpeed = wanderSpeed;
 
             if (moveCoroutine != null)
@@ -115,7 +115,7 @@ public class Wander : MonoBehaviour
                 StopCoroutine(moveCoroutine);
             }
 
-            targetTransform = null;
+            targetTransform = null;*/
         }
     }
 

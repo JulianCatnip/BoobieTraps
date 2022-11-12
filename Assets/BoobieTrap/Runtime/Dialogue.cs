@@ -6,11 +6,11 @@ public class Dialogue : MonoBehaviour
     public string ScriptName;
     public string Label;
 
-    private void OnTriggerEnter (Collider other)
+    private void OnTriggerEnter2D (Collider2D other)
     {
         // Stop movement of character
-        //var controller = other.gameObject.GetComponentInChildren<CharacterController3D>();
-        //controller.IsInputBlocked = true;
+        var controller = Object.FindObjectOfType<MovementController>();
+        controller.enabled = false;
 
         var inputManager = Engine.GetService<IInputManager>();
         inputManager.ProcessInput = true;

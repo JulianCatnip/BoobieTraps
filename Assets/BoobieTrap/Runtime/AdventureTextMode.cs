@@ -14,6 +14,7 @@ public class AdventureTextMode : Command
 
     public override async UniTask ExecuteAsync (AsyncToken asyncToken = default)
     {
+        Debug.Log("Adventure command called");
         // 1. Disable Naninovel input.
         var inputManager = Engine.GetService<IInputManager>();
         inputManager.ProcessInput = false;
@@ -44,6 +45,7 @@ public class AdventureTextMode : Command
         }
 
         // 5. Disable naninovel cameras.
+        Debug.Log("Disable NaniCamera");
         var naniCamera = Engine.GetService<ICameraManager>().Camera;
         naniCamera.enabled = false;
 

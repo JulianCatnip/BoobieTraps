@@ -1,5 +1,5 @@
 ﻿using Naninovel;
-using Naninovel.UI;
+using Cinemachine;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject titleUI;
     public SpawnPoint playerSpawnPoint;
+    public GameObject player;
     public SpawnPoint enemySpawnPoint;
     public CameraManager cameraManager;
     public Camera adventureModeCamera;
@@ -39,17 +40,19 @@ public class GameManager : MonoBehaviour
 
     public async void StartGame ()
     {
+        //Debug.Log("StartGame called");
         gameState = GameState.START;
         previousLevel = currentLevel;
         currentLevel = 1;
+
         DisableLevel(previousLevel);
         LoadLevel(currentLevel);
 
         await RuntimeInitializer.InitializeAsync();
         
+        //Debug.Log("Adventure command call");
         var switchCommand = new AdventureTextMode { ResetState = false };
         await switchCommand.ExecuteAsync();
-        Debug.Log("Command switch");
         //ResetGameContent();
     }
 
