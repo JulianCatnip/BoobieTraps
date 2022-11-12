@@ -51,7 +51,9 @@ public class GameManager : MonoBehaviour
         await RuntimeInitializer.InitializeAsync();
         
         //Debug.Log("Adventure command call");
-        var switchCommand = new AdventureTextMode { ResetState = false };
+        //var switchCommand = new AdventureTextMode { ResetState = false };
+        //await switchCommand.ExecuteAsync();
+        var switchCommand = new StartTextMode { ResetState = false, ScriptName = "Dialogue00", Label = "Start"};
         await switchCommand.ExecuteAsync();
         //ResetGameContent();
     }

@@ -262,6 +262,23 @@ MonoBehaviour:
       pathPrefix: TextPrinters
       guid: 
   - Id: Characters/fd93ae73-730c-4027-b843-c00c2736df86
-    Resources: []
+    Resources:
+    - name: annoyed
+      pathPrefix: Characters/Taleen
+      guid: 6c685a17de8797f46b00ea6db2e09532
+    - name: laughing
+      pathPrefix: Characters/Taleen
+      guid: d1cb24a0984fdb34c96cb9370ee8b355
+    - name: neutral
+      pathPrefix: Characters/Taleen
+      guid: eafe2f300d790734ca2627af164bac9b
+    - name: sad
+      pathPrefix: Characters/Taleen
+      guid: ee093786242adb042bd572b4c67038f5
+    - name: surprised
+      pathPrefix: Characters/Taleen
+      guid: fc02628f5f9c8d8408bea07166e2f3ec
   - Id: Characters/93d115d4-e2c8-46d3-b6fd-e630ec5182e5
+    Resources: []
+  - Id: CharacterAvatars
     Resources: []

@@ -1,23 +1,20 @@
-@back bg02 id:Level01
+;@bgm dialoguemusic
+;@back taleenroom
+# Start
+@print "Taleen woke up on her 17th birthday with a strange feeling tingling through her limbs." printer:Wide
+@print "Her whole body felt like it was buzzing with some kind of electricity." printer:Wide
+@print "She looked out her window on the countryside of Lystria, her home in the Sunbrian metropolis area." printer:Wide
+@print "While everything seemed still and harmonious, the world buzzed with unease at times, looking back at its past, an unhappy period of unquiet had passed the decade before." printer:Wide
 
-# Enemy1
-e1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.[i] Quisque sed massa a dolor vehicula scelerisque. Fusce quis tortor nec nunc dignissim hendrerit.
-e2: Cras dapibus...[i] Massa pulvinar fermentum venenatis!
-e1: Cras ut ex augue?[skipInput]
-@choice "Go to novel mode" goto:Aha
-@choice "Nevermind"
-@stop
-e2: See ya!
+@char Taleen.laughing
+Taleen: Ok Lystria, let's see what you've got for me today.
+@hideChars
+@hidePrinter
 @adventure reset:false
 
-# Enemy2
-e1: Suspendisse potenti in faucibus orci.
-e2: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
-e1: Maecenas diam sapien...[i] Lacinia vel urna!
-e2: Curabitur auctor vehicula eros, vitae congue diam tempus sed.
+# Norbert
+;@char Norbert
+Norbert: You'll never believe it.
+Taleen: Huh?[i] Who's that?
+Norbert: Here, at your window.
 @adventure reset:false
-
-# Aha
-Curabitur auctor vehicula eros, vitae congue diam tempus sed...
-
-@stop

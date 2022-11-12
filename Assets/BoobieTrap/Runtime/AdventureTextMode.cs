@@ -34,7 +34,7 @@ public class AdventureTextMode : Command
             await stateManager.ResetStateAsync();
         }
 
-        if (StartingCall)
+        /*if (StartingCall)
         {
             Debug.Log("Starting call");
             var gameManager = Object.FindObjectOfType<GameManager>();
@@ -42,15 +42,12 @@ public class AdventureTextMode : Command
             
             //var script = Engine.GetService<IScriptPlayer>();
             //await script.PreloadAndPlayAsync(ScriptName);
-        }
+        }*/
 
         // 5. Disable naninovel cameras.
         Debug.Log("Disable NaniCamera");
         var naniCamera = Engine.GetService<ICameraManager>().Camera;
         naniCamera.enabled = false;
-
-        // 6. Show adventure level.
-
 
         var advCamera = GameObject.Find("AdventureModeCamera");
         advCamera.SetActive(true);
@@ -58,7 +55,9 @@ public class AdventureTextMode : Command
         cmvcam1.SetActive(true);
 
         // 6. Enable character control.
-        var controller = Object.FindObjectOfType<MovementController>();
-        controller.enabled = true;
+        var playerControl = Object.FindObjectOfType<MovementController>();
+        playerControl.enabled = true;
+        var playerRb = playerControl.GetComponent<Rigidbody2D>();
+        playerRb.bodyType = RigidbodyType2D.Dynamic;
     }
 }
