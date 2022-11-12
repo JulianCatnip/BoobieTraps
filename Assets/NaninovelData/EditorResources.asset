@@ -166,3 +166,90 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Backgrounds/7bb4867b-36a6-4a18-aa6c-e3a6b30c2ba8
+    Resources:
+    - name: bg01
+      pathPrefix: Backgrounds/MainBackground
+      guid: 488a89167c110df41a31f492414a1a73
+  - Id: Scripts
+    Resources:
+    - name: Script001
+      pathPrefix: Scripts
+      guid: aa883cf56992f174ea0bd0bcff9b06e3
+    - name: Script000
+      pathPrefix: Scripts
+      guid: 0535e1d4ea63af94a9dd51a1ce9d10df
+    - name: Dialogue00
+      pathPrefix: Scripts
+      guid: 77055dca417601a4a84d99c04053cd30
+    - name: Prologue00
+      pathPrefix: Scripts
+      guid: 5f19d057662c9c14e9f6d813bb652329
+  - Id: Backgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources:
+    - name: bg02
+      pathPrefix: Backgrounds/Level01
+      guid: 293fec521f662254aa0f6460430625ea
+    - name: bg03
+      pathPrefix: Backgrounds/Level01
+      guid: 4e843004b8eb60e439e66696dbeea408
+    - name: bg04
+      pathPrefix: Backgrounds/Level01
+      guid: 60472bfb7e5549e42829b5a45069c312
+  - Id: Backgrounds/85961c76-226b-4500-82a7-6a2250036e8f
+    Resources:
+    - name: Grassland
+      pathPrefix: Backgrounds/Level02
+      guid: 6d179de767a538c449136f6e423f7df4
+  - Id: S/85961c76-226b-4500-82a7-6a2250036e8f
+    Resources: []
+  - Id: Sc/85961c76-226b-4500-82a7-6a2250036e8f
+    Resources: []
+  - Id: Sce/85961c76-226b-4500-82a7-6a2250036e8f
+    Resources: []
+  - Id: Scen/85961c76-226b-4500-82a7-6a2250036e8f
+    Resources: []
+  - Id: Scene/85961c76-226b-4500-82a7-6a2250036e8f
+    Resources: []
+  - Id: BoobieTrap/Scripts
+    Resources:
+    - name: Prologue00
+      pathPrefix: BoobieTrap/Scripts
+      guid: 5f19d057662c9c14e9f6d813bb652329
+    - name: Dialogue00
+      pathPrefix: BoobieTrap/Scripts
+      guid: 77055dca417601a4a84d99c04053cd30
+  - Id: TextPrinters/b249ac72-2a43-463c-b7de-e6895e7eb7b0
+    Resources:
+    - name: Adventure
+      pathPrefix: TextPrinters
+      guid: 8ce527e1f1dd4cd4fa34ca8a746652ea
+  - Id: TextPrinters/0f730f9f-2e0c-41b5-90fd-cba1f906d086
+    Resources:
+    - name: Novel
+      pathPrefix: TextPrinters
+      guid: 08009642ff617dc43a4ea2759ef17d5f
+  - Id: BBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BooBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobiBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobieBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobieTBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobieTrBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobieTraBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobieTrapBackgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: BoobieTrap/Backgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
+    Resources: []
+  - Id: Unlockables
+    Resources: []
