@@ -191,6 +191,9 @@ MonoBehaviour:
     - name: Taleen_2
       pathPrefix: Scripts
       guid: 75cfc68edd03e0c45afb021b6166073c
+    - name: Taleen_3
+      pathPrefix: Scripts
+      guid: 22c9136157d7d63439ec602661660526
   - Id: Backgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
     Resources:
     - name: bg02
