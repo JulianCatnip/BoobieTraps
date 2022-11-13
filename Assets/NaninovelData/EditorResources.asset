@@ -278,6 +278,9 @@ MonoBehaviour:
     - name: surprised
       pathPrefix: Characters/Taleen
       guid: fc02628f5f9c8d8408bea07166e2f3ec
+    - name: pose
+      pathPrefix: Characters/Taleen
+      guid: 1296d2a3779ad0146ae47f2b17867d49
   - Id: Characters/93d115d4-e2c8-46d3-b6fd-e630ec5182e5
     Resources: []
   - Id: CharacterAvatars

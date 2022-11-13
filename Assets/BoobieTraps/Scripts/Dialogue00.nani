@@ -1,0 +1,23 @@
+;@bgm dialoguemusic
+# Start
+@wait 1.0 wait:true
+@print "Taleen woke up on her 17th birthday with a strange feeling tingling through her limbs." printer:Wide
+@print "Her whole body felt like it was buzzing with some kind of electricity." printer:Wide
+@print "She looked out her window on the countryside of Lystria, her home in the Sunbrian metropolis area." printer:Wide
+@print "While everything seemed still and harmonious, the world buzzed with unease at times, looking back at its past, an unhappy period of unquiet had passed the decade before." printer:Wide
+
+@char Taleen.neutral pose:Left
+Taleen: Ok Lystria, let's see what you've got for me today. [char Taleen.laughing pos:0,0 wait:false]
+@hideChars
+@hidePrinter
+@adventure reset:false
+
+# Norbert
+;@char Norbert.neutral pose:Left
+Norbert: You'll never believe it.
+@char Taleen.surprised pose:Left
+Taleen: Huh?[i] Who's that?
+Norbert: Here, at your window.
+@hideChars
+@hidePrinter
+@adventure reset:false

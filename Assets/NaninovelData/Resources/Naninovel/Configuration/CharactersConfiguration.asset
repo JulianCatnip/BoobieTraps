@@ -62,7 +62,27 @@ MonoBehaviour:
     MessageSoundPlayback: 0
     VoiceSource: {fileID: 0}
     LinkedPrinter: 
-    Poses: []
+    Poses:
+    - name: Left
+      actorState:
+        appearance: 
+        visible: 0
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+        scale: {x: 0, y: 0, z: 0}
+        tintColor: {r: 0, g: 0, b: 0, a: 0}
+        lookDirection: 0
+      overriddenProperties: []
+    - name: Right
+      actorState:
+        appearance: 
+        visible: 0
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+        scale: {x: 0, y: 0, z: 0}
+        tintColor: {r: 0, g: 0, b: 0, a: 0}
+        lookDirection: 0
+      overriddenProperties: []
   Metadata:
     ids:
     - Taleen
@@ -159,7 +179,29 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SharedPoses: []
+  SharedPoses:
+  - name: Right
+    actorState:
+      appearance: 
+      visible: 0
+      position: {x: -3.8400002, y: -5.4, z: 3}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      scale: {x: 0, y: 0, z: 0}
+      tintColor: {r: 0, g: 0, b: 0, a: 0}
+      lookDirection: 0
+    overriddenProperties:
+    - position
+  - name: Left
+    actorState:
+      appearance: 
+      visible: 0
+      position: {x: 3.8400002, y: -5.4, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      scale: {x: 0, y: 0, z: 0}
+      tintColor: {r: 0, g: 0, b: 0, a: 0}
+      lookDirection: 0
+    overriddenProperties:
+    - position
   references:
     version: 2
     RefIds:

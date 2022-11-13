@@ -8,21 +8,26 @@ public class MovementController : MonoBehaviour
     Vector2 movement = new Vector2();
 
     Animator animator;
-    string animationState = "AnimationState";
+    bool isWalking = false;
     Rigidbody2D rb2D;
+    public AudioSource feetAudioSrc;
 
-    enum CharStates
+    /*enum CharStates
     {
         idle = 0,
         walkLeft = 1,
-        walkRight = 2
-    }
+        walkRight = 2,
+        walkUp = 3,
+        walkDown = 4
+    }*/
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
+        feetAudioSrc = GetComponentInChildren<AudioSource>();
+        feetAudioSrc.Play();
     }
 
     // Update is called once per frame
@@ -47,26 +52,28 @@ public class MovementController : MonoBehaviour
 
     private void UpdateState()
     {
-        if (movement.x > 0) // rechts d
+        if (Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.y, 0))
         {
-            animator.SetInteger(animationState, (int)CharStates.walkRight);
-
-        }
-        else if (movement.x < 0) // links a
-        {
-            animator.SetInteger(animationState, (int)CharStates.walkLeft);
-        }
-        else if (movement.y > 0) // oben w
-        {
-            animator.SetInteger(animationState, (int)CharStates.walkRight);
-        }
-        else if (movement.y < 0) // unten s
-        {
-            animator.SetInteger(animationState, (int)CharStates.walkLeft);
+            animator.SetBool("isWalking", false);
+            isWalking = false;
         }
         else
         {
-            animator.SetInteger(animationState, (int)CharStates.idle);
+            animator.SetBool("isWalking", true);
+            isWalking = true;
         }
+
+        if(!isWalking && feetAudioSrc.isPlaying)
+        {
+            feetAudioSrc.Stop();
+        } 
+        
+        if(isWalking && !feetAudioSrc.isPlaying)
+        {
+            feetAudioSrc.Play();
+        }
+
+        animator.SetFloat("xDir", movement.x);
+        animator.SetFloat("yDir", movement.y);
     }
 }
