@@ -194,6 +194,9 @@ MonoBehaviour:
     - name: Taleen_3
       pathPrefix: Scripts
       guid: 22c9136157d7d63439ec602661660526
+    - name: Taleen_final
+      pathPrefix: Scripts
+      guid: a9098ec709551c246b952cb7afba7e77
   - Id: Backgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
     Resources:
     - name: bg02
@@ -288,6 +291,25 @@ MonoBehaviour:
       pathPrefix: Characters/Taleen
       guid: 1296d2a3779ad0146ae47f2b17867d49
   - Id: Characters/93d115d4-e2c8-46d3-b6fd-e630ec5182e5
-    Resources: []
+    Resources:
+    - name: neutral
+      pathPrefix: Characters/Norbert
+      guid: 3b52a42de63a70147a326a350cfb1e63
   - Id: CharacterAvatars
     Resources: []
+  - Id: Characters/6930ffd8-e084-45a1-bca1-8fb98fe7ebd3
+    Resources:
+    - name: talking
+      pathPrefix: Characters/Gallen
+      guid: 536ee1f01d5db4943a23ad422c092c1b
+    - name: sitting
+      pathPrefix: Characters/Gallen
+      guid: f9d0417cd8aa0b94e8a1255bf3a132df
+  - Id: Characters/65bf3b77-d432-4bad-a562-68cc3712a2c4
+    Resources:
+    - name: angry
+      pathPrefix: Characters/Sybil
+      guid: 0ce84befd285f28409038a4f31e09658
+    - name: normal
+      pathPrefix: Characters/Sybil
+      guid: 99ffdabc93964d3468b6eb7e7938c442

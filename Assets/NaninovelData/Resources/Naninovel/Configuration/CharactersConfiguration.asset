@@ -86,7 +86,9 @@ MonoBehaviour:
   Metadata:
     ids:
     - Taleen
-    - e2
+    - Norbert
+    - Gallen
+    - Sybil
     metas:
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -115,8 +117,8 @@ MonoBehaviour:
         height: 1
       BakedLookDirection: 1
       DisplayName: Taleen
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
+      UseCharacterColor: 1
+      NameColor: {r: 0.2425374, g: 0.6981132, b: 0.07025033, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -156,9 +158,105 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: Enemy2
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
+      DisplayName: Norbert
+      UseCharacterColor: 1
+      NameColor: {r: 0.105820514, g: 0.702779, b: 0.8207547, a: 1}
+      MessageColor: {r: 1, g: 1, b: 1, a: 1}
+      HighlightWhenSpeaking: 0
+      HighlightCharacterCount: 0
+      SpeakingPose: 
+      NotSpeakingPose: 
+      PlaceOnTop: 1
+      HighlightDuration: 0.35
+      HighlightEasing: 1
+      MessageSound: 
+      MessageSoundPlayback: 0
+      VoiceSource: {fileID: 0}
+      LinkedPrinter: 
+      Poses:
+      - name: Smaller
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: -3.8400002, y: -3.24, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0.4, y: 0.4, z: 0.4}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          lookDirection: 0
+        overriddenProperties:
+        - scale
+        - position
+    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Characters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 6930ffd8-e084-45a1-bca1-8fb98fe7ebd3
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      RenderRectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      BakedLookDirection: 1
+      DisplayName: Gallen
+      UseCharacterColor: 1
+      NameColor: {r: 0.8301887, g: 0.46743515, b: 0.07570895, a: 1}
+      MessageColor: {r: 1, g: 1, b: 1, a: 1}
+      HighlightWhenSpeaking: 0
+      HighlightCharacterCount: 0
+      SpeakingPose: 
+      NotSpeakingPose: 
+      PlaceOnTop: 1
+      HighlightDuration: 0.35
+      HighlightEasing: 1
+      MessageSound: 
+      MessageSoundPlayback: 0
+      VoiceSource: {fileID: 0}
+      LinkedPrinter: 
+      Poses: []
+    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Characters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 65bf3b77-d432-4bad-a562-68cc3712a2c4
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      RenderRectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      BakedLookDirection: 1
+      DisplayName: Sybil
+      UseCharacterColor: 1
+      NameColor: {r: 0.7924528, g: 0.13955137, b: 0.61364365, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -180,7 +278,7 @@ MonoBehaviour:
     - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   SharedPoses:
-  - name: Right
+  - name: Left
     actorState:
       appearance: 
       visible: 0
@@ -191,7 +289,7 @@ MonoBehaviour:
       lookDirection: 0
     overriddenProperties:
     - position
-  - name: Left
+  - name: Right
     actorState:
       appearance: 
       visible: 0
@@ -201,6 +299,41 @@ MonoBehaviour:
       tintColor: {r: 0, g: 0, b: 0, a: 0}
       lookDirection: 0
     overriddenProperties:
+    - position
+  - name: Mirrored
+    actorState:
+      appearance: 
+      visible: 0
+      position: {x: -9.6, y: -5.4, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      scale: {x: -1, y: 0, z: 0}
+      tintColor: {r: 0, g: 0, b: 0, a: 0}
+      lookDirection: 0
+    overriddenProperties:
+    - scale
+  - name: LeftMirrored
+    actorState:
+      appearance: 
+      visible: 0
+      position: {x: -3.8400002, y: -5.4, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      scale: {x: -1, y: 0, z: 0}
+      tintColor: {r: 0, g: 0, b: 0, a: 0}
+      lookDirection: 0
+    overriddenProperties:
+    - scale
+    - position
+  - name: RightMirrored
+    actorState:
+      appearance: 
+      visible: 0
+      position: {x: 3.8400002, y: -5.4, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      scale: {x: -1, y: 0, z: 0}
+      tintColor: {r: 0, g: 0, b: 0, a: 0}
+      lookDirection: 0
+    overriddenProperties:
+    - scale
     - position
   references:
     version: 2
