@@ -185,7 +185,7 @@ MonoBehaviour:
     - name: Prologue
       pathPrefix: Scripts
       guid: 5f19d057662c9c14e9f6d813bb652329
-    - name: Taleen
+    - name: Taleen_1
       pathPrefix: Scripts
       guid: e349128f2f744b54c967e1126f586bb5
     - name: Taleen_2
@@ -194,7 +194,7 @@ MonoBehaviour:
     - name: Taleen_3
       pathPrefix: Scripts
       guid: 22c9136157d7d63439ec602661660526
-    - name: Taleen_final
+    - name: Taleen_4
       pathPrefix: Scripts
       guid: a9098ec709551c246b952cb7afba7e77
   - Id: Backgrounds/15b14c98-161a-48bf-9062-bd0b9fc9d0d4
@@ -313,3 +313,17 @@ MonoBehaviour:
     - name: normal
       pathPrefix: Characters/Sybil
       guid: 99ffdabc93964d3468b6eb7e7938c442
+  - Id: Audio
+    Resources:
+    - name: dialoguemusic
+      pathPrefix: Audio
+      guid: 41232b7889e18324c92363e4c5e67032
+    - name: Failure
+      pathPrefix: Audio
+      guid: 014c644024db81940a95262466be0ec4
+    - name: Howling
+      pathPrefix: Audio
+      guid: f71aed73ba2bb4548a79b7c80df7a287
+    - name: Victory
+      pathPrefix: Audio
+      guid: d95ce22db832366449d3b658f0705b93

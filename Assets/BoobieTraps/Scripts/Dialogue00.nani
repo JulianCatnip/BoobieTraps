@@ -18,10 +18,12 @@ Norbert: You'll never believe it.
 Taleen: Huh?[i] Who's that?
 @char Norbert.neutral pose:Smaller
 Norbert: Here, at your window.
+
+@stopgamemusic reset:false
 ;@hideChars
 ;@hidePrinter
 ;@adventure reset:false
-
+@bgm dialoguemusic
 @print "Taleen looked out the window beyond the bird with brightly coloured feet that had sat upon her window sill which she hoped would not fly in." printer:Wide
 Norbert: Taleen. I'm the one talking to you.
 @print "Taleen looked down at the bird and found that the words she was hearing aligned with the movements of his beak." printer:Wide
