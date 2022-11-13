@@ -8,15 +8,16 @@ public class ItemObject : MonoBehaviour
     public enum Type
     {
         POTION,
-        HERB,
+        NATURE_CATALYST,
         GEM,
         REMAINS,
         DEFAULT
     }
 
     public Type type = Type.DEFAULT;
+    public string itemDescription;
 
-    public List<Item> compatibleItems;
+    public List<ItemObject> compatibleItems;
     // Start is called before the first frame update
     void Start()
     {
