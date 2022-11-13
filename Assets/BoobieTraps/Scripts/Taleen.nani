@@ -1,0 +1,301 @@
+# Start
+@bgm dialoguemusic
+@back taleenroom
+@print "Taleen woke up on her 17th birthday with a strange feeling tingling through her limbs." printer:Wide
+@print "Her whole body felt like it was buzzing with some kind of electricity." printer:Wide
+@print "She looked out her window on the countryside of Lystria, her home in the Sunbrian metropolis area." printer:Wide
+@print "While everything seemed still and harmonious, the world buzzed with unease at times, looking back at its past, an unhappy period of unquiet had passed the decade before." printer:Wide
+@char Taleen.neutral pos:80,-20 scale:0.65
+Taleen: Ok Lystria, let's see what you've got for me today.
+@char Norbert.normal pos:5,-16 scale:0.95
+Norbert: You'll never believe it.
+Taleen: Huh? Who's that?
+Norbert: Here, at your window.
+@print "Taleen looked out the window beyond the bird with brightly coloured feet that had sat upon her window sill which she hoped would not fly in." printer:Wide
+Norbert: Taleen. I'm the one talking to you.
+@print "Taleen looked down at the bird and found that the words she was hearing aligned with the movements of his beak." printer:Wide
+@print "Of course her next thought was that either she was going crazy or someone was playing a dumb trick on her." printer:Wide
+@char Taleen.surprised
+Norbert: Ugh. This is the tedious part. The part where you don't believe I'm a talking bird and you don't believe anything I have to say. Alright, let's get it over with.
+Norbert: I am Norbert, your familiar. You are a witch. Both of our powers have been awakened today as you become a woman. And I am here to guide you on your journey.
+Taleen: Wait what?
+Norbert: Yeah, get it all out.
+Taleen: Who is doing this, this is a pretty life-like bird...
+Norbert: I am not a robot being manipulated by someone who wants to play a trick on you. But interesting guess, you're less boring than other young witches. They usually just send themselves to a psychiatric ward.
+Taleen: Umm...
+Norbert: Okay, to speed things along, just humour me.
+@char Taleen.annoyed
+Taleen: Humour the talking bird. Ok... 'Norbert.' Let me humour you.
+@hidechars
+@char Taleen.glasses
+@print "Taleen was already searching for the nearest psychiatric ward quietly on her augmented glasses set."
+@char Norbert.normal
+Norbert: You come from a long line of witches.
+@char Taleen.annoyed
+Taleen: Tell me about it, I grew up with four women in the house, my mother, my aunt, and two of my mother's single mother friends, all living together and helping each other raise their kids. You couldn't get away with anything. Witches indeed.
+Norbert: Taleen. Be serious.
+
+Taleen: You didn't grow up here, I am being serious.
+Norbert: But what do you know of witches, real witches?
+@char Taleen.neutral
+Taleen: Not a thing, I don't believe in that stuff.
+Norbert: Witches and shamans and druids and medicine men and women have existed for centuries, people with the ability to understand natural processes so well that they can manipulate them at will.
+Taleen: They're called scientists.
+Norbert: Witches are a primordial form of a scientist, operating from the subconscious rather than the conscious. And you come from a line of witches who passed down their powers for more than two thousand years.
+Taleen: So how come I never heard of them before?
+Norbert: Because they had to go into hiding and stop passing down their knowledge when witch trials became a popular sport for the ignorant.
+@char Taleen.surprised
+Taleen: Witch hunts? Yikes.
+Norbert: Yeah, no fun.
+Taleen: So why am I suddenly a witch now?
+Norbert: The witches always knew their power would come back when it was safe or necessary. And now, because of their tie to nature, witches are awakening in response to the call of the wild.
+@char Taleen.neutral
+Taleen: Our tie to nature? If we're so tied to nature why didn't we get 'awakened' during the climate crisis?
+Norbert: That was a time when conscious nature-manipulation was needed. Technical, precise. Now, the subconscious of the shared consciousness of this planet needs repair. It's more intuitive and subtle. That's witch-work. You are awakening because it is your time to shine.
+@hidechars
+@char Taleen.surprised
+Taleen: So wait... back up by like... a WHOLE lot. You said you're my familiar, right?
+@char Norbert.normal
+Norbert: That's me.
+@char Taleen.annoyed
+Taleen: What are you even supposed to be though?
+Norbert: I'm a blue-footed booby.
+Taleen: A... what now? A proper familiar should be like a cat, a toad or an owl or something. 
+Norbert: Okay since you know so much about being a witch I guess you don't need me then.
+Taleen: If it would end what is obviously a cruel joke being played on me or a psychotic break then sure.
+Norbert: Well, tough luck, you're not getting rid of me so easily!
+Taleen: You know... if you want me to believe you about this whole witchy thing, something witchy needs to happen. I need proof!
+Norbert: That's easy. You just need to summon your apothecary kit.
+@char Taleen.surprised
+Taleen: Heh? 
+Norbert: No, this is cool, so you have to envision a toolbox that can help you with everything you need to solve the biggest problems in your life.
+Taleen: But... you're my biggest problem right now. What if it poofs you away?
+Norbert: That's... a risk I'm willing to take.
+Taleen: What, really?!
+Norbert: Haha, no, it won't harm me, you have to use the stuff in the kit to make anything happen and it's gonna be hard to get rid of me. Hurting me hurts you, lil girl.
+@char Taleen.neutral
+Taleen: Hm. Okay. I'll play along. And then I'm going to scan you for metallic parts, and THEN if that doesn't turn up anything I will go to the hospital. Just be forewarned. That's the plan.
+Norbert: I already know I'm going to win so I'm not worried.
+Taleen: Alright. Here goes nothing.
+@hidechars
+@save
+@hidePrinter 
+
+# FirstChoice
+@choice "Envision a box that allows you to make Norbert and all that he said go away." goto:.FailScreenOne
+@choice "Envision a box that fixes the weird feeling in your body and that uneasiness you woke up with." goto:.InventoryOne
+@stop
+
+# FailScreenOne
+@bgm FailMusic
+@print "Womp, womp. Nothing happened." printer:Wide
+@choice "Try Again!" goto:.FirstChoice
+@stop
+
+# InventoryOne
+@back Inventory
+@print "Taleen saw a beautiful old wooden chest appear in front of her and lower itself gently to the ground." printer:Wide
+@print "She could not believe her eyes. She felt as though all the rules she had learned, everything she had ever been told was now in question." printer:Wide
+@print "A great vibration rippled through her body and her vision blurred at the edges as a wind rushed through the window, so powerful and sudden that it felt sentient and triumphant." printer:Wide
+@print "She knelt down beside the chest and ran her fingers along the items contained within, feeling a spark when she touched each, every item conveying a deep mystical knowledge." printer:Wide
+@print "There was wisdom in these items, passed down by nature herself to construct the properties that played their role in the interplay of life."
+@char Taleen.surprised
+@char Norbert.normal
+Norbert: Now do you believe?
+Taleen: ...yes. There's no denying. I understand now.
+@print "And she did. She understood something deep and ancient within herself, a power that had been muffled and suppressed and shunned as shameful, weird, uncivilized. Something that could help her and others but was dismissed as evil because it was different."
+Norbert: PHEW. Annoying part over! Ok! So, I know it's your birthday but we've got work to do.
+Taleen: Does it involve more magic?
+Norbert: Yes.
+@char Taleen.laughing
+Taleen: Then I'm in.
+@print "She beamed at him and as she did she saw a thin line of blue energy between her and Norbert, a connection, near visible and she could tell that his spirit had been destined for hers all along." printer:Wide
+@back taleenroom
+@char Taleen.neutral
+Norbert: The world is still suffering from the damages that humanity escaped with technological and societal changes. There are three nearby forests where you will have help from me and two other familiars.
+Norbert: We were witches and shamans and medicine women and men in pastlives. So we have some knowledge that comes through cryptically when we think about certain topics but the memories are blurry.
+Norbert: There are things that need to be healed but we can only give you ideas of what needs to be fixed. You will have to intuit what needs to be done to fix the problems presented based on the items you have in your inventory.
+Norbert: Most witches only dealt with the human world so you will need to use a natural catalyst to convert your potion for addressing problems in the natural world.
+Norbert: This will usually be a plant.
+Norbert: Also you only need three ingredients for a potent potion.
+Norbert: This may be a challenge but I believe you can do it.
+Norbert: What do you think, are you ready?
+
+@choice "Sure am!" goto:.WorldMap
+@choice "I don't... I hope so." goto:.WorldMap
+@stop
+
+# WorldMap
+
+
+# PineForest
+@bgm Critters
+@back PineForest
+@char Taleen.neutral
+@print "Taleen was instructed to go to the Pine Forest where she would meet a druid's familiar named Gallen. She was not sure what to look out for." printer:Wide
+@print "In fact, she felt quite silly looking around for an animal to talk to." printer:Wide
+Taleen: So what am I supposed to be looking for right now?
+@char Norbert.normal
+Norbert: There, Gallen. How are you?
+@hidechars
+@char Gallen.normal
+Gallen: Hello young witch. Norbert. Welcome to the pine forest.
+@char Taleen.neutral
+Taleen: Hello. I'm here and ready to work.
+Gallen: Good to hear. 
+Gallen: Now listen. What do you hear?
+Taleen: Forest creatures, wind... I dunno. Forest sounds.
+Gallen: Listen closer. 
+@print "Taleen listened for a moment. What at first felt like innocent forest noises suddenly turned into something dark and tortured." printer:Wide
+@char Taleen.sad
+Taleen: What is that feeling?
+Gallen: That's the sound of forest creatures in pain.
+Taleen: It hurts... why does it hurt?
+Gallen: Because you are connected to nature. Your senses have heightened. The forest creatures still have fears about what can happen to them.
+Gallen: People cutting down and destroying their homes, fires destroying their lives.
+Taleen: I don't like this...
+Gallen: You can fix it, don't worry.
+Taleen: How?
+Gallen: Well... that's the challenge. We will have to figure out what the witches of old might have done for similar problems then add a natural catalyst that fits.
+Taleen: Don't they know these things aren't happening anymore?
+Gallen: No. And they don't trust humans anymore. They are sad and distressed.
+Taleen: I can feel it. 
+Gallen: Based on my memories, associations are a big part of magic. So if you can think of something related to the thing you want to make happen, it often works.
+Taleen: So we want to make the creatures happy again, right?
+Gallen: Yes. We want bright and pleasant things for this potion.
+Taleen: Hm... ok... let me see what I have.
+@hidechars
+
+# Victory
+@print "Amazing! You've done it!"
+
+# FailScreenTwo
+@print "Womp, womp. Looks like that didn't work. Try again!"
+@stop
+
+# DarkForest
+@bgm Howling
+@back DarkForest
+@print "Taleen walked to the entrance of the dark forest which was a dense assembly of blackened tree stumps as far as the eye could see." printer:Wide
+@print "There was no greenery anywhere and the eerie sound of the wind whistling through hollowed out tree trunks made the place into a symphony of death." printer:Wide
+@char Sybil.normal
+Sybil: Hey, girl. How's it going?
+@char Taleen.neutral
+Taleen: Oh... hi... cat...
+Sybil: It's Sybil, honey.
+Taleen: Oh, right, Sybil. Hi. Taleen. Now THIS is a familiar.
+@hidechars
+@char Norbert.normal
+Norbert: And what is that supposed to mean?
+@char Taleen.laughing
+Taleen: It means birds are for pirates! I told you, if I'm doing this witch thing shouldn't I make people feel spooked out if they cross me?
+Taleen: You make people chuckle, Norbert. You're gonna destroy my rep.
+Norbert: We are connected so I actually know that you have no rep to destroy. You and your three friends are nerds. I will at least make you interesting.
+@char Taleen.annoyed
+Taleen: Hey! Nerds are the new cool kids.
+Norbert: Yeah, but you're not good at anything techy - that's down to your witch background - so you're not the kind of nerd that's cool.
+@print "Taleen wanted to argue but she could not. He was right of course. Which made her even more resentful." printer:Wide
+@print "Now she was wondering if she could lie to Norbert. It was a hobby of hers and if she couldn't lie to him she would be very annoyed." printer:Wide
+@hidechars
+@char Sybil.normal
+@print "Sybil cleared her throat daintily." printer:Wide
+@char Taleen.neutral
+Taleen: Oh... sorry Sybil. Norbert and I are still warming up to each other.
+Sybil: That's okay. A little fighting never hurt nobody. You gotta let the feelings out sometimes just as long as you don't say something you can't take back.
+Sybil: Anyway, I see you have become acquainted with the Dark Forest now. What do you think?
+@char Taleen.sad
+Taleen: It feels so... lifeless.
+Sybil: Exactly. That's what we're here to fix. We're gonna have to roll up our sleeves on this one. I was a necromancer in one of my past lives. Also a medicine woman in the Caribbean, practicing Obeah in my free time.
+Sybil: Oh yeah, I got up to all sorts of things. Now look at me. Licking myself, coughing up hairballs and hooked on catnip. How far the mighty fall.
+Taleen: Oh... I'm sure you'll get back to necromancing in no time...
+Sybil: If I come back in human form, probably and I would have to die first, not looking forward to that.
+Sybil: But you never know, human is just one of many, many forms to come back in. I got a buddy who awakened as a slug. I'll tell you, his witch was not pleased.
+Taleen: Hm... I guess I shouldn't be so hard on Norbert then actually.
+Sybil: See. All's well that ends well.
+Sybil: So, about this forest. I think we have to think outside of the box. What do we want to happen?
+Taleen: We are trying to revive it. 
+Sybil: Something like that. So in my past life as a necromancer we would use elements of the body to recreate life. But the limitations of necromancy was that death still clung to the souls brought back.
+Sybil: The only true new life is through rebirth. Necormancy is not for the weak-hearted.
+@char Taleen.surprised
+Taleen: Sounds... actually Sybil that sounds super dark, why were you doing that.
+Sybil: Oh you know. Typical thing. Trying to bring back my dead wife. Eh. You live and learn.
+Taleen: Did you learn though?
+Sybil: Oh yeah, I'm probably not gonna do it again. Yeah. Probably not.
+@char Taleen.neutral
+Taleen: Old habits...
+Sybil: This is the trouble of life isn't it. We have our first responses when faced by pressure. The slots we fit into. The trouble is learning how to change how we respond to these pressures.
+Taleen: Yeah. But we can.
+Sybil: We - chhhrrrrr... Chrrrrr.....
+@hidechars
+@char Sybil.hacking
+@print "Sybil hacked and coughed until a horrible hairball came up." printer:Wide
+@hidechars
+@char Sybil.normal
+Sybil: Ahem. I apologize. Anyways, agreed.
+@char Taleen.laughing
+Taleen: Okay. Now. Something to bring back life to this forest.
+@hidechars
+
+# Victory
+@print "Amazing! You've done it!"
+
+# FailScreenTwo
+@print "Womp, womp. Looks like that didn't work. Try again!"
+@stop
+
+# GreyForest
+
+@back GreyForest
+@char Norbert.normal
+Norbert: Do you hear that?
+@char Taleen.neutral
+Taleen: I don't hear a thing.
+Norbert: Exactly. This place was the site of a horrible series of events. 
+Norbert: Years ago, there was an incident at a nuclear plant. The forest was damaged and all the animals here became radioactive. They had to be put down to prevent further uncontrollable problems.
+Norbert: Now, nothing dares to go near this site.
+Taleen: But I still feel their energy. There is something slightly alive here... but in pain.
+@char Taleen.sad
+Taleen: Oh, why does this hurt so much?
+Norbert: I ache too. But don't despair for too long. We can fix this.
+@char Taleen.neutral
+Taleen: You're right. We can fix this.
+Norbert: Yeah, let's keep it positive. Because we have a solution. It won't help those poor lost souls but at least we can make it better for others to come back.
+Taleen: You're right. So what should we do?
+Norbert: I was once a witch who helped people with hauntings.
+Taleen: Oh really? That's actually quite interesting.
+Norbert: I'm an interesting guy if you get to know me.
+@char Taleen.laughing
+Taleen: If you say so.
+Norbert: So basically when banishing ghosts you have to take a symbol of lifelessness and then something that dispels it.
+@char Taleen.neutral
+Taleen: Okay and maybe something that symbolizes life too to make it extra strong?
+Norbert: Wow! Yeah! You're getting how this works!
+@hidechars
+
+# Victory
+@print "Amazing! You've done it!"
+
+# FailScreenTwo
+@print "Womp, womp. Looks like that didn't work. Try again!" 
+@stop
+
+# Ending
+@bgm dialoguemusic
+@back taleenroom
+@char Norbert.normal
+Norbert: So how do you feel now?
+@char Taleen.laughing
+Taleen: The buzzing has actually reduced. I feel better now.
+Norbert: I would smile if my beak would permit it. This form is... weird, I prefered when I didn't know about my other bodies. But anyway, I'm really glad.
+Norbert: However, your journey is just beginning. There are many things that science solved in its effort to fix the problems it created. 
+Norbert: But as always, the magic was forgotten, the very same missing ingredient that led to the problems of that era in the first place.
+Norbert: We have lots of work ahead. Many adventures. If you are up for it that is.
+Norbert: Are you?
+@char Taleen.laughing
+Taleen: Heck yeah!!
+@hidechars
+@print "The End." printer:Wide
+@print "Or the beginning..." printer:Wide
+
+
+@stop
