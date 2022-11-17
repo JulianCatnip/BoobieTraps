@@ -15,7 +15,7 @@ D:/01_Projects/FemDevsGameJam2022/BoobieTraps
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64701
+60593
 Successfully changed project path to: D:/01_Projects/FemDevsGameJam2022/BoobieTraps
 D:/01_Projects/FemDevsGameJam2022/BoobieTraps
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/01_Projects/FemDevsGameJam2022/BoobieTraps
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 145.34 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 159.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.015953 seconds.
+Registered in 0.016713 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 119.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 131.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+- Completed reload, in  0.840 seconds
 Domain Reload Profiling:
-	ReloadAssembly (815ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (579ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (124ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (353ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027004 seconds.
+Registered in 0.027640 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -115,47 +115,47 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 119.27 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 117.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Generating Metadata
 Mono: successfully reloaded assembly
-- Completed reload, in  2.697 seconds
+- Completed reload, in  2.589 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2698ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (2590ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (2424ms)
-			LoadAssemblies (318ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (2299ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
+			SetupTypeCache (346ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (1632ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1661ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (971ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (1007ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5087 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (275.9 KB). Loaded Objects now: 5520.
-Memory consumption went from 186.3 MB to 186.0 MB.
-Total: 6.031200 ms (FindLiveObjects: 0.480500 ms CreateObjectMapping: 0.441500 ms MarkObjects: 4.792800 ms  DeleteObjects: 0.312000 ms)
+Unloading 5088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (280.0 KB). Loaded Objects now: 5520.
+Memory consumption went from 186.4 MB to 186.1 MB.
+Total: 5.873600 ms (FindLiveObjects: 0.445300 ms CreateObjectMapping: 0.448600 ms MarkObjects: 4.766200 ms  DeleteObjects: 0.211800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,490 +169,184 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8075.907515 seconds.
-  path: Assets/BoobieTraps/Scripts/Taleen_1.nani
-  artifactKey: Guid(e349128f2f744b54c967e1126f586bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Scripts/Taleen_1.nani using Guid(e349128f2f744b54c967e1126f586bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a10d74cb58ef2fb6601d63c3aa178de') in 0.054291 seconds 
+  Time since last request: 17091.566398 seconds.
+  path: Assets/BoobieTraps/Sprites/Characters/Norbert/Norbert.png
+  artifactKey: Guid(f978ca93445138f4fb7b3e9c4b246e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Sprites/Characters/Norbert/Norbert.png using Guid(f978ca93445138f4fb7b3e9c4b246e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769b83c5cdc2a1d31212b78ddbec95a5') in 0.112241 seconds 
+13.11.2022 13:40:58|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
 ========================================================================
 Received Import Request.
-  Time since last request: 35.786456 seconds.
-  path: Assets/BoobieTraps/Runtime/ItemObject.cs
-  artifactKey: Guid(db4438da914aa0047b593e27db3c2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Runtime/ItemObject.cs using Guid(db4438da914aa0047b593e27db3c2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7794d9326fdf33c93846ab249a248a5d') in 0.011073 seconds 
-13.11.2022 11:10:38|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+  Time since last request: 585.856754 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0b813fd13224159ceb6875bbcdaaf4') in 0.009716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.625105 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ba93d85dcca2581256af22940fc46d') in 0.006310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 357.133667 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f90b9146bd75c72f74e10ac82ecebf') in 0.006820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.137062 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e5dfe705e4232e9772ddcd64d53b7c') in 0.005901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.832415 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6aa1e64ab3bddb8c2846a16f2ca6cc') in 0.006269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.095809 seconds.
+  path: Assets/BoobieTraps/Sprites/Characters/Norbert/neutral.png
+  artifactKey: Guid(3b52a42de63a70147a326a350cfb1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Sprites/Characters/Norbert/neutral.png using Guid(3b52a42de63a70147a326a350cfb1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db156c5786b18662d5ef251d76f7f76e') in 0.128821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.857921 seconds.
+  path: Assets/BoobieTraps/Sprites/Characters/Gallen/sitting.png
+  artifactKey: Guid(f9d0417cd8aa0b94e8a1255bf3a132df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Sprites/Characters/Gallen/sitting.png using Guid(f9d0417cd8aa0b94e8a1255bf3a132df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f65d01fe36ec7379639a048b6fff6c') in 0.075782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.948060 seconds.
+  path: Assets/BoobieTraps/Sprites/Characters/Gallen/talking.png
+  artifactKey: Guid(536ee1f01d5db4943a23ad422c092c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Sprites/Characters/Gallen/talking.png using Guid(536ee1f01d5db4943a23ad422c092c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aa78886efbef00c318dbf91311e361') in 0.067966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.848420 seconds.
+  path: Assets/BoobieTraps/Sprites/Characters/Sybil/Materials
+  artifactKey: Guid(a211a1b3ef3949d409aabe62a8b063ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Sprites/Characters/Sybil/Materials using Guid(a211a1b3ef3949d409aabe62a8b063ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f5ac0a5948187f42cc7f3103627a60') in 0.006945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092748 seconds.
+  path: Assets/BoobieTraps/Sprites/Characters/Sybil/Materials/black cat.mat
+  artifactKey: Guid(7ace5ec4092be674f84f99c09195ea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Sprites/Characters/Sybil/Materials/black cat.mat using Guid(7ace5ec4092be674f84f99c09195ea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f30672dd4f8a15d1654ee3c253bc5db') in 0.049938 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (224.5 KB). Loaded Objects now: 5567.
+Memory consumption went from 86.6 MB to 86.3 MB.
+Total: 28.098800 ms (FindLiveObjects: 0.413000 ms CreateObjectMapping: 0.416300 ms MarkObjects: 27.059100 ms  DeleteObjects: 0.209400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (221.5 KB). Loaded Objects now: 5567.
+Memory consumption went from 86.5 MB to 86.3 MB.
+Total: 7.907200 ms (FindLiveObjects: 0.490400 ms CreateObjectMapping: 0.563500 ms MarkObjects: 6.684200 ms  DeleteObjects: 0.168100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (221.7 KB). Loaded Objects now: 5567.
+Memory consumption went from 86.5 MB to 86.3 MB.
+Total: 11.207100 ms (FindLiveObjects: 0.643600 ms CreateObjectMapping: 0.648200 ms MarkObjects: 9.724500 ms  DeleteObjects: 0.189600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2350.851685 seconds.
+  path: Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png
+  artifactKey: Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png using Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3abdc0afefe97b1ac914105091e21f') in 0.045362 seconds 
+13.11.2022 14:40:22|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.025144 seconds.
+Registered in 0.028856 seconds.
 Begin MonoManager ReloadAssembly
-13.11.2022 11:10:41|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
-13.11.2022 11:10:41|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
-13.11.2022 11:10:41|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+13.11.2022 14:40:45|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.683 seconds
+- Completed reload, in  5.109 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2683ms)
-		BeginReloadAssembly (273ms)
+	ReloadAssembly (5110ms)
+		BeginReloadAssembly (288ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (151ms)
-		EndReloadAssembly (2273ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (4636ms)
+			LoadAssemblies (179ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (365ms)
+			SetupTypeCache (387ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1631ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (3962ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (1174ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (3509ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (227.2 KB). Loaded Objects now: 5540.
-Memory consumption went from 181.6 MB to 181.4 MB.
-Total: 4.676800 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.286500 ms MarkObjects: 3.893200 ms  DeleteObjects: 0.142400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029087 seconds.
-Begin MonoManager ReloadAssembly
-13.11.2022 11:12:11|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
-13.11.2022 11:12:11|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.173 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2174ms)
-		BeginReloadAssembly (273ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (148ms)
-		EndReloadAssembly (1765ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (1147ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (681ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (226.2 KB). Loaded Objects now: 5559.
-Memory consumption went from 181.7 MB to 181.5 MB.
-Total: 4.949900 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.331700 ms MarkObjects: 4.111800 ms  DeleteObjects: 0.141600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-13.11.2022 11:13:43|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
-13.11.2022 11:13:43|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
-========================================================================
-Received Import Request.
-  Time since last request: 276.815612 seconds.
-  path: Assets/BoobieTraps/Sprites/Items
-  artifactKey: Guid(af2c49ff243baef4d8a9af8e7abe1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Items using Guid(af2c49ff243baef4d8a9af8e7abe1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ebc809932112d1ea9fb03d0975f73b') in 0.011648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.020681 seconds.
-  path: Assets/BoobieTraps/Sprites/Items/potions.png
-  artifactKey: Guid(eccb9a8c28dbdca429ffc427b7f290b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Items/potions.png using Guid(eccb9a8c28dbdca429ffc427b7f290b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa12d5003ad3fd280c835b1487f92d0') in 0.111458 seconds 
-13.11.2022 11:18:44|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024035 seconds.
-Begin MonoManager ReloadAssembly
-13.11.2022 11:18:47|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.012 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2013ms)
-		BeginReloadAssembly (175ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1706ms)
-			LoadAssemblies (135ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1126ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (686ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.25 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (227.2 KB). Loaded Objects now: 5584.
-Memory consumption went from 185.8 MB to 185.5 MB.
-Total: 4.445100 ms (FindLiveObjects: 0.377000 ms CreateObjectMapping: 0.321900 ms MarkObjects: 3.564300 ms  DeleteObjects: 0.180900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-13.11.2022 11:20:19|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
-13.11.2022 11:20:19|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
-========================================================================
-Received Import Request.
-  Time since last request: 455.719266 seconds.
-  path: Assets/BoobieTraps/Prefabs
-  artifactKey: Guid(441e5b4294f7766498f67249f692dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs using Guid(441e5b4294f7766498f67249f692dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e193366fe74b4e408806f6b48938476d') in 0.012153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.476290 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest
-  artifactKey: Guid(abdb9e173dd16d8418070eb2b0cbfcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest using Guid(abdb9e173dd16d8418070eb2b0cbfcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7df0e1597d03c7ae496130d4bc4df26') in 0.006176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.448690 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/blue_cohosh_berry_vine.prefab
-  artifactKey: Guid(146c4de78873a794f8614a6ec71a87e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/blue_cohosh_berry_vine.prefab using Guid(146c4de78873a794f8614a6ec71a87e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0804649ce27556a065edcfcca3790154') in 0.117873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab
-  artifactKey: Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab using Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bc493faf2010864d59c49e992f161e') in 0.016432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.734392 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab
-  artifactKey: Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab using Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a1cc8696b3e4a031533aec5e444bc3') in 0.014168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.293092 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab
-  artifactKey: Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab using Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34ac086a46d2e93973c23325398f1dd') in 0.014739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.602139 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/green_potion.prefab
-  artifactKey: Guid(87637d3d4ebe6f646be50829262303e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/green_potion.prefab using Guid(87637d3d4ebe6f646be50829262303e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726f0273f713ab4e6bc82f7e6d68a130') in 0.155756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.941931 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/green_potion.prefab
-  artifactKey: Guid(87637d3d4ebe6f646be50829262303e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/green_potion.prefab using Guid(87637d3d4ebe6f646be50829262303e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a05f0d44a8940e888a45d1a4f543c4') in 0.015577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.262469 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/blue_cohosh_berry_vine.prefab
-  artifactKey: Guid(146c4de78873a794f8614a6ec71a87e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/blue_cohosh_berry_vine.prefab using Guid(146c4de78873a794f8614a6ec71a87e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bc8cba93d6e73a296db049a7f24026') in 0.829972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab
-  artifactKey: Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/ruby.prefab using Guid(b390a03383988ee4e8ec4276725c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c79c10fff4a00bfdb8be2b1dd192ed') in 0.013168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.738720 seconds.
-  path: Assets/BoobieTraps/Prefabs/DarkForest/blue_cohosh_berry_vine.prefab
-  artifactKey: Guid(146c4de78873a794f8614a6ec71a87e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/DarkForest/blue_cohosh_berry_vine.prefab using Guid(146c4de78873a794f8614a6ec71a87e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a671e88d8b9d20cc5d6ec9bba6dcc55e') in 0.015127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.960141 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest
-  artifactKey: Guid(b33b663969b5d20469b3ecc175f3a301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest using Guid(b33b663969b5d20469b3ecc175f3a301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b239406a475cddd32ab852c3bb0c9d2') in 0.005482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.235910 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest
-  artifactKey: Guid(26fb19fd63153084a87f4da8900a5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest using Guid(26fb19fd63153084a87f4da8900a5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fefc2684135e1e1863e17c588b80d8') in 0.005332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 355.431544 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab
-  artifactKey: Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab using Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0637afd77c2d66b0c6660fd1fddf905d') in 0.020965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/sunshine_gem.prefab
-  artifactKey: Guid(467c249f5bca14240bf192e7dac83e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/sunshine_gem.prefab using Guid(467c249f5bca14240bf192e7dac83e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb77c7e43c79ffef195ee9918b0e7218') in 0.016299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.992179 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab
-  artifactKey: Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab using Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9cb56051a0e11d7ce06164c0eeac20') in 0.013393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.785227 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab
-  artifactKey: Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab using Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f37a5a34c192bf28a035ad9225f723') in 0.015292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.660787 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab
-  artifactKey: Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab using Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8a774f57f899b7194ab2d2265e015f') in 0.168551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.294833 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab
-  artifactKey: Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab using Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c4e8a1a0303ac971ef84c39daf218c') in 0.018737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.681203 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab
-  artifactKey: Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab using Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9daf8e62b2cc9ef45252d970bcd4fe') in 0.015616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.719658 seconds.
-  path: Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab
-  artifactKey: Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/PineForest/giddy_vine.prefab using Guid(42163cbb9eff4474ab41dc04a5e51eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c7ea6f1f20393dafe02747d6815fb9') in 0.321873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.675850 seconds.
-  path: Assets/BoobieTraps/Sprites/Environment/ground_tiles.png
-  artifactKey: Guid(22113307a1aada4478d19766974d7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Environment/ground_tiles.png using Guid(22113307a1aada4478d19766974d7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99a1b9b9c4e06e99c2b23d6b10f4a48') in 0.233773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 232.287787 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab
-  artifactKey: Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab using Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd217731230113e65c8ab00cff6d855f') in 0.082464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.211940 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab
-  artifactKey: Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab using Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbd4b99f050a57a893582a941231f42') in 0.015864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.193735 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab
-  artifactKey: Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab using Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928ca4f3ab3a4f490f9525a70614120f') in 0.014311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.875630 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab
-  artifactKey: Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab using Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ee2616710a7c08f66734d261160520') in 0.109582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.842368 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab
-  artifactKey: Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab using Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6221283dfc5dc5cdf784c74e0affd88f') in 0.017228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.716316 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/purple_flower.prefab
-  artifactKey: Guid(9be7e5f85f82ea94480c21a4ba541071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/purple_flower.prefab using Guid(9be7e5f85f82ea94480c21a4ba541071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a6536521b7dc9d315134282edef309') in 0.016271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001056 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab
-  artifactKey: Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab using Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0669b4c3316fd74466714197f835455') in 0.157046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.627960 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab
-  artifactKey: Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/bone.prefab using Guid(2c46f82bf62bf244f998d5537327885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246b0550a045a73c71ccf16df45a3bf0') in 0.015674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/BoobieTraps/Prefabs/GreyForest/purple_flower.prefab
-  artifactKey: Guid(9be7e5f85f82ea94480c21a4ba541071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/GreyForest/purple_flower.prefab using Guid(9be7e5f85f82ea94480c21a4ba541071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa38d4f20b5d7e6e3fa2c0f52cb0be9e') in 0.014642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 211.727619 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Gallen/squirrel_gallen.png
-  artifactKey: Guid(f9d0417cd8aa0b94e8a1255bf3a132df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Gallen/squirrel_gallen.png using Guid(f9d0417cd8aa0b94e8a1255bf3a132df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b778b220cd92534bab8b9f324f908f91') in 0.197802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.760797 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Gallen/red_fuzzy_squirrel_2.png
-  artifactKey: Guid(536ee1f01d5db4943a23ad422c092c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Gallen/red_fuzzy_squirrel_2.png using Guid(536ee1f01d5db4943a23ad422c092c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc09e402bc9a30b9e0d5f057bdf1cd63') in 0.119076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.166639 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Gallen/squirrel_gallen_2.png
-  artifactKey: Guid(536ee1f01d5db4943a23ad422c092c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Gallen/squirrel_gallen_2.png using Guid(536ee1f01d5db4943a23ad422c092c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd177d69bc557640a12918bea5906a0') in 0.068446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 741.420547 seconds.
-  path: Assets/BoobieTraps/Scripts/Taleen_final.nani
-  artifactKey: Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Scripts/Taleen_final.nani using Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4488a9a9c9c2b2fedc5fc0352d50b82') in 0.045517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.915089 seconds.
-  path: Assets/BoobieTraps/Scripts/Taleen_final.nani
-  artifactKey: Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Scripts/Taleen_final.nani using Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1064ee9199e85bc0e2ff778d44cbc6') in 0.115274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.524785 seconds.
-  path: Assets/BoobieTraps/Scripts/Taleen_final.nani
-  artifactKey: Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Scripts/Taleen_final.nani using Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12262b4dddffa311de0ccecea1a14bd7') in 0.039473 seconds 
-13.11.2022 12:24:19|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022751 seconds.
-Begin MonoManager ReloadAssembly
-13.11.2022 12:24:23|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.188 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2189ms)
-		BeginReloadAssembly (277ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (115ms)
-		EndReloadAssembly (1765ms)
-			LoadAssemblies (174ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1130ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (676ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-13.11.2022 12:24:26|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
-Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (226.1 KB). Loaded Objects now: 5613.
+Unloading 36 unused Assets / (225.3 KB). Loaded Objects now: 5586.
 Memory consumption went from 186.0 MB to 185.8 MB.
-Total: 5.745300 ms (FindLiveObjects: 0.374400 ms CreateObjectMapping: 0.370600 ms MarkObjects: 4.844500 ms  DeleteObjects: 0.154700 ms)
+Total: 6.328100 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.327000 ms MarkObjects: 5.483500 ms  DeleteObjects: 0.152300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -664,57 +358,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-13.11.2022 12:25:56|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
-13.11.2022 12:27:41|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+13.11.2022 14:42:17|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+13.11.2022 14:42:18|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027059 seconds.
-Begin MonoManager ReloadAssembly
-13.11.2022 12:27:44|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.155 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2156ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1831ms)
-			LoadAssemblies (151ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (347ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (1164ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (684ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (226.3 KB). Loaded Objects now: 5632.
-Memory consumption went from 186.0 MB to 185.8 MB.
-Total: 7.409600 ms (FindLiveObjects: 0.455400 ms CreateObjectMapping: 0.600000 ms MarkObjects: 6.100100 ms  DeleteObjects: 0.252300 ms)
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (222.6 KB). Loaded Objects now: 5586.
+Memory consumption went from 85.9 MB to 85.7 MB.
+Total: 4.613400 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.276600 ms MarkObjects: 3.744600 ms  DeleteObjects: 0.213300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -726,22 +379,149 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-13.11.2022 12:28:43|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 599.418040 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c28b166b322ad9b47defcdce29acaf') in 0.044032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.318369 seconds.
+  path: Assets/BoobieTraps/Scripts/Taleen_4.nani
+  artifactKey: Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Taleen_4.nani using Guid(a9098ec709551c246b952cb7afba7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4004219022bacaccff713b55e3ecfe46') in 0.023949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 264.660304 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021337 seconds  code(4) message(Build asset version error: assets/boobietraps/scripts/dialogue00.nani in SourceAssetDB has modification time of '2022-11-13T13:54:29.9917701Z' while content on disk has modification time of '2022-11-13T13:54:30.1694127Z')
+  ERROR: Build asset version error: assets/boobietraps/scripts/dialogue00.nani in SourceAssetDB has modification time of '2022-11-13T13:54:29.9917701Z' while content on disk has modification time of '2022-11-13T13:54:30.1694127Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.689432 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0b478604ab19d2f8ac48a33f96f7c5') in 0.020059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.485632 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1930ad4cf4e0bdc10f27ad0d463dd53') in 0.004907 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (221.3 KB). Loaded Objects now: 5586.
+Memory consumption went from 86.5 MB to 86.3 MB.
+Total: 5.939400 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.341400 ms MarkObjects: 4.980400 ms  DeleteObjects: 0.212000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (220.7 KB). Loaded Objects now: 5586.
+Memory consumption went from 86.6 MB to 86.3 MB.
+Total: 7.369600 ms (FindLiveObjects: 0.408400 ms CreateObjectMapping: 0.312200 ms MarkObjects: 6.456400 ms  DeleteObjects: 0.191600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1505.004377 seconds.
+  path: Assets/BoobieTraps/Audio/FX
+  artifactKey: Guid(1d417c73b3c63e045950be2aa0cd83f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/FX using Guid(1d417c73b3c63e045950be2aa0cd83f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244beaaec859a783e10fd5c2776d05b5') in 0.005553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.848866 seconds.
+  path: Assets/BoobieTraps/Audio/FX/Clirr_Dark.wav
+  artifactKey: Guid(e0fce87e0d2b8e54f8090e427bcb9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/FX/Clirr_Dark.wav using Guid(e0fce87e0d2b8e54f8090e427bcb9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2e189d7dfb806b9f9eeff21d522c84') in 0.163356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BoobieTraps/Audio/FX/Explosion_2.wav
+  artifactKey: Guid(3d498889f17269f44a2b252eefc77560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/FX/Explosion_2.wav using Guid(3d498889f17269f44a2b252eefc77560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c75b4912a0b46ef86acd886ea17964') in 0.017042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BoobieTraps/Audio/FX/Explosion_1.wav
+  artifactKey: Guid(cf10ca460b97e7948bf8495f541d1ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/FX/Explosion_1.wav using Guid(cf10ca460b97e7948bf8495f541d1ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf8bf24f1144be7177280053a454a8e') in 0.022913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.337706 seconds.
+  path: Assets/BoobieTraps/Audio/ENd
+  artifactKey: Guid(a08f335fef99fa741a98c520dbc564d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/ENd using Guid(a08f335fef99fa741a98c520dbc564d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b133bcea38a675b380c9030f50c40c55') in 0.006104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.750332 seconds.
+  path: Assets/BoobieTraps/Audio/End
+  artifactKey: Guid(a08f335fef99fa741a98c520dbc564d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/End using Guid(a08f335fef99fa741a98c520dbc564d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c40acc4c751c60111b8196a8411ee5') in 0.005725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.579435 seconds.
+  path: Assets/BoobieTraps/Audio/FX/SuccessSound.wav
+  artifactKey: Guid(42e4ce9d64dc4fa47b6d217d4559fc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/FX/SuccessSound.wav using Guid(42e4ce9d64dc4fa47b6d217d4559fc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa65eb58501ab8375f10e1421d116b6') in 0.014836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 335.893530 seconds.
+  path: Assets/BoobieTraps/Runtime/AdventureTextMode.cs
+  artifactKey: Guid(6f2fb6e6bacde1a44ac2eea887a96ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Runtime/AdventureTextMode.cs using Guid(6f2fb6e6bacde1a44ac2eea887a96ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf0cdd83f95af770c2455ae03302655') in 0.011700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.422083 seconds.
+  path: Assets/BoobieTraps/Runtime/AdventureTextMode1.cs
+  artifactKey: Guid(3dd3d42fa980f704d9ac55a397bb3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Runtime/AdventureTextMode1.cs using Guid(3dd3d42fa980f704d9ac55a397bb3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fd739a4bc800eb16a038350285432f') in 0.006446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.631502 seconds.
+  path: Assets/BoobieTraps/Runtime/StopCommand.cs
+  artifactKey: Guid(3dd3d42fa980f704d9ac55a397bb3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Runtime/StopCommand.cs using Guid(3dd3d42fa980f704d9ac55a397bb3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f548d35da6196bdd2665cf9e699e01f2') in 0.005119 seconds 
+13.11.2022 15:29:01|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.023788 seconds.
-13.11.2022 12:28:45|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+Registered in 0.023958 seconds.
 Begin MonoManager ReloadAssembly
-13.11.2022 12:28:46|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
-13.11.2022 12:28:46|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+13.11.2022 15:29:04|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -751,40 +531,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.093 seconds
+- Completed reload, in  2.228 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2093ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (2229ms)
+		BeginReloadAssembly (274ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1776ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (1168ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (1153ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (686ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (691ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (227.4 KB). Loaded Objects now: 5651.
-Memory consumption went from 186.2 MB to 185.9 MB.
-Total: 5.742100 ms (FindLiveObjects: 0.422800 ms CreateObjectMapping: 0.404400 ms MarkObjects: 4.639800 ms  DeleteObjects: 0.273500 ms)
+Unloading 5042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (223.3 KB). Loaded Objects now: 5608.
+Memory consumption went from 186.4 MB to 186.2 MB.
+Total: 4.327900 ms (FindLiveObjects: 0.364400 ms CreateObjectMapping: 0.330500 ms MarkObjects: 3.496600 ms  DeleteObjects: 0.135300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -797,156 +577,211 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2409.546077 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Sybil/angry.png
-  artifactKey: Guid(0ce84befd285f28409038a4f31e09658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Sybil/angry.png using Guid(0ce84befd285f28409038a4f31e09658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95165ed02c67b04163e98faae9bb0cda') in 0.349684 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027080 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.252 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2253ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1872ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (750ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (224.5 KB). Loaded Objects now: 5627.
+Memory consumption went from 186.4 MB to 186.2 MB.
+Total: 5.320900 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.354000 ms MarkObjects: 4.421700 ms  DeleteObjects: 0.151200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+13.11.2022 15:34:50|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+13.11.2022 15:34:50|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+13.11.2022 15:36:49|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024759 seconds.
+Begin MonoManager ReloadAssembly
+13.11.2022 15:36:52|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\01_Projects\FemDevsGameJam2022\BoobieTraps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1709ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1115ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (669ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (223.5 KB). Loaded Objects now: 5646.
+Memory consumption went from 186.5 MB to 186.2 MB.
+Total: 4.684700 ms (FindLiveObjects: 0.380100 ms CreateObjectMapping: 0.399500 ms MarkObjects: 3.751400 ms  DeleteObjects: 0.152800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+13.11.2022 15:38:24|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+13.11.2022 15:38:24|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
 ========================================================================
 Received Import Request.
-  Time since last request: 10.486836 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png
-  artifactKey: Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png using Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabb6c572706130d2e7bbc364f76ea87') in 0.114057 seconds 
+  Time since last request: 744.949093 seconds.
+  path: Assets/BoobieTraps/Scripts/Dialogue00.nani
+  artifactKey: Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Scripts/Dialogue00.nani using Guid(77055dca417601a4a84d99c04053cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266c970e20fcbed6536361d20b0130f0') in 0.062582 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.505125 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png
-  artifactKey: Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png using Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f7606aa5655bb14c2d3bcc494b057c') in 0.024796 seconds 
+  Time since last request: 118.195567 seconds.
+  path: Assets/BoobieTraps/Runtime/StopCommand.cs
+  artifactKey: Guid(3dd3d42fa980f704d9ac55a397bb3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Runtime/StopCommand.cs using Guid(3dd3d42fa980f704d9ac55a397bb3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700550bdeec3a6a53dfe4cbbedf29e38') in 0.004389 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.492720 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png
-  artifactKey: Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Sybil/black cat.png using Guid(5bf94b0a617376043af2660f31de7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be99d7a305e1a44302c4aafcb7ec95f2') in 0.086189 seconds 
+  Time since last request: 319.065420 seconds.
+  path: Assets/BoobieTraps/Audio/Background/DarkAcapella 1.wav
+  artifactKey: Guid(7c009506734480a44bcdccd65e9666f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/Background/DarkAcapella 1.wav using Guid(7c009506734480a44bcdccd65e9666f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d993925afbfe5d49bb68f608078a27f') in 0.037846 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.789000 seconds.
-  path: Assets/BoobieTraps/Audio/Animals/Boobie_Arr.wav
-  artifactKey: Guid(b557c4ea8f5d8144c9b08f1d6f3c464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Audio/Animals/Boobie_Arr.wav using Guid(b557c4ea8f5d8144c9b08f1d6f3c464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015bc821b0fdbfbc77b95ad01cf7118c') in 0.272199 seconds 
+  Time since last request: 34.269899 seconds.
+  path: Assets/BoobieTraps/Audio/Background/Dialog_Soundtrack.wav
+  artifactKey: Guid(41232b7889e18324c92363e4c5e67032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/Background/Dialog_Soundtrack.wav using Guid(41232b7889e18324c92363e4c5e67032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9927326be93031dbe3a1341ccaf8492') in 0.018191 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BoobieTraps/Audio/Animals/Cat.wav
-  artifactKey: Guid(fd5e76afb83b03f428cfdbb611377333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Audio/Animals/Cat.wav using Guid(fd5e76afb83b03f428cfdbb611377333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c12f5e6585554c4583123ac5abc9815') in 0.088555 seconds 
+  Time since last request: 47.784673 seconds.
+  path: Assets/BoobieTraps/Audio/FailSound.wav
+  artifactKey: Guid(014c644024db81940a95262466be0ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/FailSound.wav using Guid(014c644024db81940a95262466be0ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43662bfd3bca179a23151376250b9b15') in 0.024909 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.348166 seconds.
-  path: Assets/BoobieTraps/Sprites/Environment/tiles together(1).png
-  artifactKey: Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Environment/tiles together(1).png using Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2db1be48d1fb1c480e5d6dffc821852') in 0.023605 seconds 
+  Time since last request: 53.080802 seconds.
+  path: Assets/BoobieTraps/Audio/HappyAcapella.wav
+  artifactKey: Guid(988e9b0a43a293e40b6c61f173646bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/HappyAcapella.wav using Guid(988e9b0a43a293e40b6c61f173646bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110fa197088c3b66d673c555a2ae430c') in 0.017035 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.703247 seconds.
-  path: Assets/BoobieTraps/Sprites/Environment/ground_tiles.png
-  artifactKey: Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Environment/ground_tiles.png using Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d33eb802d058f1275b1a12d8461fa5e') in 0.018541 seconds 
+  Time since last request: 86.280772 seconds.
+  path: Assets/BoobieTraps/Audio/howling.wav
+  artifactKey: Guid(f71aed73ba2bb4548a79b7c80df7a287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/howling.wav using Guid(f71aed73ba2bb4548a79b7c80df7a287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ae1d1e383e17f5a461a2fcd0e0a001') in 0.012134 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.817032 seconds.
-  path: Assets/BoobieTraps/Sprites/Environment/ground_tiles.png
-  artifactKey: Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Environment/ground_tiles.png using Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94398101f68948f0f12f5ad983ea605e') in 0.057767 seconds 
+  Time since last request: 59.322148 seconds.
+  path: Assets/BoobieTraps/Audio/dialoguemusic.wav
+  artifactKey: Guid(41232b7889e18324c92363e4c5e67032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/dialoguemusic.wav using Guid(41232b7889e18324c92363e4c5e67032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288e15fc9e01c949aed82e7baaddcbc8') in 0.013545 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.924200 seconds.
-  path: Assets/BoobieTraps/Sprites/Environment/ground_tiles.png
-  artifactKey: Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Environment/ground_tiles.png using Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6f345773d97742a098ba25a4d110b8') in 0.067955 seconds 
+  Time since last request: 70.565746 seconds.
+  path: Assets/BoobieTraps/Audio/Howling.wav
+  artifactKey: Guid(f71aed73ba2bb4548a79b7c80df7a287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/Howling.wav using Guid(f71aed73ba2bb4548a79b7c80df7a287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a460b30ad77d090ecd44055b01f7b5') in 0.016251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.757777 seconds.
-  path: Assets/BoobieTraps/Sprites/Environment/ground_tiles.png
-  artifactKey: Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Environment/ground_tiles.png using Guid(b92072114dda1a34fb8a9c83fca16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a2b9e4e7a280c7cde8834525b75682') in 0.091746 seconds 
+  Time since last request: 15.662169 seconds.
+  path: Assets/BoobieTraps/Audio/Failure.wav
+  artifactKey: Guid(014c644024db81940a95262466be0ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/Failure.wav using Guid(014c644024db81940a95262466be0ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c1fadf63ba948b716523a4b7f9d8b3') in 0.037058 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1522.944376 seconds.
-  path: Assets/BoobieTraps/Prefabs/TreesPlants
-  artifactKey: Guid(9c7669a04c946314b92b020e055d8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/TreesPlants using Guid(9c7669a04c946314b92b020e055d8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01097387379502c0bba23b4ef6476b15') in 0.006239 seconds 
+  Time since last request: 7.456435 seconds.
+  path: Assets/BoobieTraps/Audio/Victory.wav
+  artifactKey: Guid(d95ce22db832366449d3b658f0705b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoobieTraps/Audio/Victory.wav using Guid(d95ce22db832366449d3b658f0705b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cff998d73a1c001299d04efc9093428') in 0.012576 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 13.641424 seconds.
-  path: Assets/BoobieTraps/Prefabs/TreesPlants/bush_1.prefab
-  artifactKey: Guid(acbb8a78f4108094d9b0aabe21ee7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/TreesPlants/bush_1.prefab using Guid(acbb8a78f4108094d9b0aabe21ee7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73990a77d17692ca583bdea0488876e9') in 0.070576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/BoobieTraps/Prefabs/TreesPlants/plant_1.prefab
-  artifactKey: Guid(79c01130a61024449b4f4377d520091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/TreesPlants/plant_1.prefab using Guid(79c01130a61024449b4f4377d520091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5286c383ff63a5be9fd5415840522a7') in 0.029296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BoobieTraps/Prefabs/TreesPlants/stump_2.prefab
-  artifactKey: Guid(475664c6ca6bd3246a642c16f43e9692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/TreesPlants/stump_2.prefab using Guid(475664c6ca6bd3246a642c16f43e9692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e5526209033a057da361ba621dd20d') in 0.031837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.973415 seconds.
-  path: Assets/BoobieTraps/Prefabs/TreesPlants/dead_tree_2.prefab
-  artifactKey: Guid(b9bbf93d2670559419e4afb0e1acb3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Prefabs/TreesPlants/dead_tree_2.prefab using Guid(b9bbf93d2670559419e4afb0e1acb3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b98e08aebc35691464403b174f1f16') in 0.081409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1551.715471 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Norbert/Blue-footed_Booby_2.png
-  artifactKey: Guid(3b52a42de63a70147a326a350cfb1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Norbert/Blue-footed_Booby_2.png using Guid(3b52a42de63a70147a326a350cfb1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7094c8c45055113e7785d3e74c6716bc') in 0.270268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 119.084339 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/annoyed_l.png
-  artifactKey: Guid(bb5e3ff8b8eb24b47a97cfec2d89b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/annoyed_l.png using Guid(bb5e3ff8b8eb24b47a97cfec2d89b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d8c55a7f119830fbbed34db0bd5d6f') in 0.367297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/neutral_l.png
-  artifactKey: Guid(92759c8ac0d61ff4799a08442b5e793d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/neutral_l.png using Guid(92759c8ac0d61ff4799a08442b5e793d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b17f7b44a5e7ee7dac0525b6246db9') in 0.367775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/walking_right.png
-  artifactKey: Guid(b065cbf6b8c8ac34d81c322b57d669a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/walking_right.png using Guid(b065cbf6b8c8ac34d81c322b57d669a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809176c54badad3e4d064106bb65c0d9') in 0.037456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/sad.png
-  artifactKey: Guid(ee093786242adb042bd572b4c67038f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/sad.png using Guid(ee093786242adb042bd572b4c67038f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f6969dc48c5bb72de18970975d716c') in 0.121551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/pose.png
-  artifactKey: Guid(1296d2a3779ad0146ae47f2b17867d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/pose.png using Guid(1296d2a3779ad0146ae47f2b17867d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbd1cccf19464edef5a7bf959c6f4aa') in 0.119397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/surprised.png
-  artifactKey: Guid(fc02628f5f9c8d8408bea07166e2f3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/surprised.png using Guid(fc02628f5f9c8d8408bea07166e2f3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fada19fad84b66578a4a41eac6b48374') in 0.068278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/laughing_l.png
-  artifactKey: Guid(91c4ff46257fffc46a450013028c42af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/laughing_l.png using Guid(91c4ff46257fffc46a450013028c42af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef99915965f417347a6f6b6dfcb4d8f') in 0.352415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BoobieTraps/Sprites/Characters/Taleen/walking_up.png
-  artifactKey: Guid(274a8b4fc7850f349895bbfdc56a0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BoobieTraps/Sprites/Characters/Taleen/walking_up.png using Guid(274a8b4fc7850f349895bbfdc56a0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c401d3443441e2b35727c312487624b') in 0.056572 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (220.5 KB). Loaded Objects now: 5647.
+Memory consumption went from 87.0 MB to 86.8 MB.
+Total: 7.534000 ms (FindLiveObjects: 0.538900 ms CreateObjectMapping: 0.462600 ms MarkObjects: 6.354000 ms  DeleteObjects: 0.177700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
