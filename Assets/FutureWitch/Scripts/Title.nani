@@ -1,1 +1,5 @@
-@back bg01
+@back bg_title
+@char Taleen_L.pose_l pose:Right transition:Pixelate time:2
+@showUI TitleText
+
+@stop

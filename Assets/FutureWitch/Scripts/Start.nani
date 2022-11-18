@@ -1,1 +1,6 @@
-@back bg01
+@back bg_title
+
+@printer Wide pos:50,90
+Welcome to Future Witch. For this game, please have something handy for notation whether pen and paper or your phone notes app which is more ecofriendly anyway ;)
+
+@stop

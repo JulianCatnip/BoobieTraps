@@ -2,7 +2,7 @@ using Naninovel;
 using UnityEngine;
 
 [CommandAlias("novel")]
-public class NovelTextMode : Command
+public class NovelMode : Command
 {
     [ParameterAlias("reset")]
     public BooleanParameter ResetState = true;

@@ -166,3 +166,62 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: TitleText
+      pathPrefix: UI
+      guid: 8b5f6fbb682ffcb4d9f46e0193a06abe
+  - Id: Scripts
+    Resources:
+    - name: Title
+      pathPrefix: Scripts
+      guid: 0535e1d4ea63af94a9dd51a1ce9d10df
+    - name: Start
+      pathPrefix: Scripts
+      guid: aa883cf56992f174ea0bd0bcff9b06e3
+  - Id: Backgrounds/7bb4867b-36a6-4a18-aa6c-e3a6b30c2ba8
+    Resources:
+    - name: titlescreen
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4230a8f9e0497d3428dcc246fa199c88
+    - name: bg_title
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4a08f39b24079fa4e9a65d19cce7b1d6
+  - Id: Characters/fd93ae73-730c-4027-b843-c00c2736df86
+    Resources:
+    - name: annoyed
+      pathPrefix: Characters/Taleen
+      guid: 6c685a17de8797f46b00ea6db2e09532
+    - name: laughing
+      pathPrefix: Characters/Taleen
+      guid: d1cb24a0984fdb34c96cb9370ee8b355
+    - name: neutral
+      pathPrefix: Characters/Taleen
+      guid: eafe2f300d790734ca2627af164bac9b
+    - name: pose
+      pathPrefix: Characters/Taleen
+      guid: 1296d2a3779ad0146ae47f2b17867d49
+    - name: sad
+      pathPrefix: Characters/Taleen
+      guid: ee093786242adb042bd572b4c67038f5
+    - name: surprised
+      pathPrefix: Characters/Taleen
+      guid: fc02628f5f9c8d8408bea07166e2f3ec
+  - Id: Characters/f9f76af2-8ae5-4116-932d-11d92a87ed25
+    Resources:
+    - name: pose_l
+      pathPrefix: Characters/Taleen_L
+      guid: 5d1eb36c5fd79274c9793637f47687b2
+  - Id: TextPrinters/0a0dd117-8b10-411c-bdbe-894582256028
+    Resources:
+    - name: Title
+      pathPrefix: TextPrinters
+      guid: 521d69465604a3b44ab4af9e8fe0e0fb
+  - Id: TextPrinters/0f730f9f-2e0c-41b5-90fd-cba1f906d086
+    Resources:
+    - name: Novel
+      pathPrefix: TextPrinters
+      guid: 08009642ff617dc43a4ea2759ef17d5f
+  - Id: TextPrinters/b249ac72-2a43-463c-b7de-e6895e7eb7b0
+    Resources:
+    - name: Adventure
+      pathPrefix: TextPrinters
+      guid: 8ce527e1f1dd4cd4fa34ca8a746652ea

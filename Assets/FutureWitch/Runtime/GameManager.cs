@@ -5,8 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager sharedInstance = null;
-    enum GameState
-    {
+    enum GameState {
         NULL,
         START,
         PAUSE,
@@ -23,21 +22,14 @@ public class GameManager : MonoBehaviour
     public SpawnPoint enemySpawnPoint;
     public Camera adventureModeCamera;
 
-    void Awake()
-    {
+    void Awake() {
         if(sharedInstance != null && sharedInstance != this)
-        {
             Destroy(gameObject);
-        }
         else
-        {
             sharedInstance = this;
-            // test
-        }
     }
 
-    public async void StartGame ()
-    {
+    public async void StartGame () { // Called via 
         //Debug.Log("StartGame called");
         gameState = GameState.START;
         previousLevel = currentLevel;
